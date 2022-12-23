@@ -1,0 +1,43 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:011",
+        "action": "search",
+        "core_version": "0.7.1",
+        "consumer_id": "lybrate-eua",
+        "consumer_uri": "https://staging.lybrate.com/uhi/",
+        "transaction_id": "TXN-10200571447-7bb8043f",
+        "message_id": "MSG-10200571447-b0705670",
+        "timestamp": "1671699092409"
+    },
+    "message": {
+        "intent": {
+            "item": {
+                "descriptor": {
+                    "name": "Consultation",
+                    "code": "CONSULTATION"
+                }
+            },
+            "fulfillment": {
+                "type": "Online",
+                "start": {
+                    "time": {
+                        "timestamp": "1671699092412"
+                    }
+                },
+                "end": {
+                    "time": {
+                        "timestamp": "1672252200000"
+                    }
+                }
+            },
+            "category": {
+                "descriptor": {
+                    "name": "Cardiology",
+                    "code": "CARDIOLOGY"
+                }
+            }
+        }
+    }
+}
