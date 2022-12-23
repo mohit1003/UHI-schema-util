@@ -1,0 +1,150 @@
+{
+  "context": {
+      "domain": "nic2004:85111",
+      "country": "IND",
+      "city": "std:080",
+      "action": "on_search",
+      "timestamp": "2022-12-23T17:01:38",
+      "core_version": "0.7.1",
+      "consumer_id": "eua-nha",
+      "consumer_uri": "http://uhieuasandbox.abdm.gov.in/api/v1/euaService",
+      "provider_id": "",
+      "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+      "transaction_id": "e9a19230-f951-11ec-b135-53aea776f66b",
+      "message_id": "e9a19230-f951-11ec-b135-53aea776f66b"
+  },
+  "message": {
+      "catalog": {
+          "descriptor": {
+              "name": "Medibuddy",
+              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+              "short_desc": "India's Largest Digital Healthcare Platform",
+              "long_desc": ""
+          },
+          "providers": [
+              {
+                  "id": "1",
+                  "descriptor": {
+                      "name": "Manipal Hospital - Dwarka,New Delhi",
+                      "short_desc": "",
+                      "long_desc": ""
+                  },
+                  "categories": [
+                      {
+                          "id": "0",
+                          "descriptor": {
+                              "name": "Paediatric Cardiologist",
+                              "code": "PAEDIATRIC CARDIOLOGIST"
+                          }
+                      },
+                      {
+                          "id": "1",
+                          "descriptor": {
+                              "name": "Paediatric Cardiologist",
+                              "code": "PAEDIATRIC CARDIOLOGIST"
+                          }
+                      }
+                  ],
+                  "fulfillments": [
+                      {
+                          "id": "0",
+                          "type": "Online",
+                          "agent": {
+                              "id": "eb7a129620b54277ac58e28385093b14",
+                              "name": "Sakshi Khullar",
+                              "gender": "M",
+                              "image": null,
+                              "tags": {
+                                  "@abdm/gov/in/experience": "20",
+                                  "@abdm/gov/in/languages": "Eng",
+                                  "@abdm/gov/in/education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology) ",
+                                  "@abdm/gov/in/hpr_id": "eb7a129620b54277ac58e28385093b14"
+                              }
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": ""
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": ""
+                              }
+                          }
+                      },
+                      {
+                          "id": "1",
+                          "type": "Online",
+                          "agent": {
+                              "id": "8c3eccf34dad4cca8c55fc0e36f6a8b4444",
+                              "name": "Shatul",
+                              "gender": "M",
+                              "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
+                              "tags": {
+                                  "@abdm/gov/in/experience": "25",
+                                  "@abdm/gov/in/languages": "Eng",
+                                  "@abdm/gov/in/education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology)",
+                                  "@abdm/gov/in/hpr_id": "8c3eccf34dad4cca8c55fc0e36f6a8b4444"
+                              }
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": ""
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": ""
+                              }
+                          }
+                      }
+                  ],
+                  "items": [
+                      {
+                          "id": "0",
+                          "descriptor": {
+                              "name": "Consultation"
+                          },
+                          "price": {
+                              "currency": "INR",
+                              "value": "1200"
+                          },
+                          "category_id": "0",
+                          "fulfillment_id": "0"
+                      },
+                      {
+                          "id": "1",
+                          "descriptor": {
+                              "name": "Consultation"
+                          },
+                          "price": {
+                              "currency": "INR",
+                              "value": "1200"
+                          },
+                          "category_id": "1",
+                          "fulfillment_id": "1"
+                      }
+                  ],
+                  "location": {
+                      "id": "1",
+                      "descriptor": {
+                          "name": "Manipal Hospital - Dwarka,New Delhi",
+                          "short_desc": "",
+                          "long_desc": ""
+                      },
+                      "city": {
+                          "name": "Delhi",
+                          "code": "std:080"
+                      },
+                      "country": {
+                          "name": "INDIA",
+                          "code": "+91"
+                      },
+                      "gps": "",
+                      "address": "Dwarka"
+                  }
+              }
+          ]
+      }
+  }
+}

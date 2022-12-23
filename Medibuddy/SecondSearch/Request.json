@@ -1,0 +1,99 @@
+{
+  "context": {
+      "domain": "nic2004:85111",
+      "country": "IND",
+      "city": "std:011",
+      "action": "search",
+      "timestamp": "2022-12-12T09:58:17",
+      "core_version": "0.7.1",
+      "consumer_id": "eua-nha",
+      "consumer_uri": "https://abha-uhipracto.practodev.com/v1/uhi",
+      "provider_id": "medibuddy-tech-hspa",
+      "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+      "transaction_id": "88a11d53-03c3-4c57-9cfe-a3d94ac1de6a",
+      "message_id": "1d4a9641-d768-4a11-aa4e-6fec951bebbe"
+  },
+  "message": {
+      "intent": {
+          "provider": {
+              "id": "1",
+              "descriptor": {
+                  "name": "Manipal Hospital - Dwarka,New Delhi",
+                  "short_desc": "",
+                  "long_desc": "",
+                  "images": null
+              },
+              "categories": [
+                  {
+                      "id": "0",
+                      "parent_category_id": null,
+                      "descriptor": {
+                          "code": "PAEDIATRIC CARDIOLOGIST",
+                          "name": "Paediatric Cardiologist"
+                      }
+                  }
+              ],
+              "fulfillments": [
+                  {
+                      "id": "0",
+                      "type": "Physical",
+                      "agent": {
+                          "id": "CFDB310DB96C4A9A8F818312CB5F6A58",
+                          "name": "Smita Mishra",
+                          "image": "",
+                          "gender": "M",
+                          "tags": {
+                              "abdm_gov_in_experience": "25",
+                              "abdm_gov_in_education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology)",
+                              "abdm_gov_in_languages": "Eng",
+                              "abdm_gov_in_hpr_id": "8c3eccf34dad4cca8c55fc0e36f6a8b4"
+                          }
+                      },
+                      "end": {
+                          "time": {
+                              "timestamp": "2022-12-16T10:59:59"
+                          }
+                      },
+                      "start": {
+                          "time": {
+                              "timestamp": "2022-12-15T00:00:00"
+                          }
+                      }
+                  }
+              ],
+              "items": [
+                  {
+                      "id": "0",
+                      "descriptor": {
+                          "code": null,
+                          "name": "Consultation"
+                      },
+                      "price": {
+                          "value": "1200",
+                          "currency": "INR"
+                      },
+                      "category_id": "0",
+                      "fulfillment_id": "0"
+                  }
+              ],
+              "location": {
+                  "id": "1",
+                  "descriptor": {
+                      "code": null,
+                      "name": "Manipal Hospital - Dwarka,New Delhi"
+                  },
+                  "city": {
+                      "code": "std:011",
+                      "name": "Delhi"
+                  },
+                  "country": {
+                      "code": "+91",
+                      "name": "INDIA"
+                  },
+                  "gps": "",
+                  "address": "Dwarka"
+              }
+          }
+      }
+  }
+}

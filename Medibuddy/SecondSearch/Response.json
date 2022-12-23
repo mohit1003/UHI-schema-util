@@ -1,0 +1,1262 @@
+{
+  "context": {
+      "domain": "nic2004:85111",
+      "country": "IND",
+      "city": "std:011",
+      "action": "on_search",
+      "timestamp": "2022-12-23T17:05:53",
+      "core_version": "0.7.1",
+      "consumer_id": "eua-nha",
+      "consumer_uri": "https://abha-uhipracto.practodev.com/v1/uhi",
+      "provider_id": "medibuddy-tech-hspa",
+      "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+      "transaction_id": "88a11d53-03c3-4c57-9cfe-a3d94ac1de6a",
+      "message_id": "1d4a9641-d768-4a11-aa4e-6fec951bebbe"
+  },
+  "message": {
+      "catalog": {
+          "descriptor": {
+              "name": "Medibuddy",
+              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+              "short_desc": "India's Largest Digital Healthcare Platform",
+              "long_desc": ""
+          },
+          "providers": [
+              {
+                  "id": "1",
+                  "descriptor": {
+                      "name": "Doctors' Hub | OPD",
+                      "short_desc": "",
+                      "long_desc": ""
+                  },
+                  "fulfillments": [
+                      {
+                          "id": "0b27a0cf-f69d-425a-a6a7-e2ff857e552d",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T10:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T10:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "0b27a0cf-f69d-425a-a6a7-e2ff857e552d"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "52749784-e0d8-4fee-b1c2-6e2416625f14",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T10:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T11:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "52749784-e0d8-4fee-b1c2-6e2416625f14"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "81db9888-cfde-4c0a-88f9-66a33dc2db3f",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T11:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T11:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "81db9888-cfde-4c0a-88f9-66a33dc2db3f"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "43e821cd-cded-4a7d-9c19-cceeec873f59",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T11:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T12:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "43e821cd-cded-4a7d-9c19-cceeec873f59"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "77ee0881-64e3-4084-a832-4636bc3a503e",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T12:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T12:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "77ee0881-64e3-4084-a832-4636bc3a503e"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "09691f96-35a9-4f49-805a-615ac065d627",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T12:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T13:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "09691f96-35a9-4f49-805a-615ac065d627"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "a6ec2b9f-08b1-4882-acfb-52c46a11278d",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T13:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T13:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "a6ec2b9f-08b1-4882-acfb-52c46a11278d"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "e770d9ad-3022-4ce3-b48d-b894d309f972",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T13:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T14:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "e770d9ad-3022-4ce3-b48d-b894d309f972"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "b1b85709-5036-4717-98c0-b5589907519f",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T14:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T14:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "b1b85709-5036-4717-98c0-b5589907519f"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "46500f0c-e621-4be4-8139-6a814c008b1e",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T14:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T15:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "46500f0c-e621-4be4-8139-6a814c008b1e"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "e07fe1b1-8213-410b-a41a-b10b6ba584ae",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T15:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T15:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "e07fe1b1-8213-410b-a41a-b10b6ba584ae"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "d5fcdb2c-8599-466f-9060-cdf2255354e9",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T15:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T16:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "d5fcdb2c-8599-466f-9060-cdf2255354e9"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "0dab0d69-18ac-4981-9ecb-9925b9ec3f38",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T16:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T16:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "0dab0d69-18ac-4981-9ecb-9925b9ec3f38"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "412aab50-1c2d-4ad4-834f-936c6306849e",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-15T16:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-15T17:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "412aab50-1c2d-4ad4-834f-936c6306849e"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "c5d2cf78-9afd-4e2e-8db5-82767b5760ec",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T10:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T10:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "c5d2cf78-9afd-4e2e-8db5-82767b5760ec"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "0585e20d-0965-4ae2-8870-7340de31fcc4",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T10:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T11:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "0585e20d-0965-4ae2-8870-7340de31fcc4"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "93dddddc-078c-412a-ae8c-b71ee7609489",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T11:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T11:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "93dddddc-078c-412a-ae8c-b71ee7609489"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "c7cd0f8e-3c6f-4244-bc65-5d4da4201876",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T11:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T12:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "c7cd0f8e-3c6f-4244-bc65-5d4da4201876"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "7b5ed8b4-24a2-4f48-b89b-9b59077514a9",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T12:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T12:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "7b5ed8b4-24a2-4f48-b89b-9b59077514a9"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "89a582e4-9583-4118-9105-e2315da45bf2",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T12:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T13:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "89a582e4-9583-4118-9105-e2315da45bf2"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "92d7d16a-1d94-41e2-9098-f7c04b7a684c",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T13:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T13:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "92d7d16a-1d94-41e2-9098-f7c04b7a684c"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "59764a7b-3a8a-4a23-b7ae-4c6a9cebba59",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T13:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T14:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "59764a7b-3a8a-4a23-b7ae-4c6a9cebba59"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "5a45d8e4-70b1-4490-831a-59f5487656c0",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T14:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T14:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "5a45d8e4-70b1-4490-831a-59f5487656c0"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "2f039f91-9af6-48c4-a20f-4b456c96a7e1",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T14:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T15:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "2f039f91-9af6-48c4-a20f-4b456c96a7e1"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "993e49a2-cb58-44d1-b8dc-c89d43f8b709",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T15:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T15:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "993e49a2-cb58-44d1-b8dc-c89d43f8b709"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "c3e2aea3-17b3-44ad-b172-81be0c3481e6",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T15:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T16:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "c3e2aea3-17b3-44ad-b172-81be0c3481e6"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "7cdfe9c6-5f7e-4bd6-9084-19ac73794e0d",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T16:00:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T16:30:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "7cdfe9c6-5f7e-4bd6-9084-19ac73794e0d"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      },
+                      {
+                          "id": "ba9cb606-1be2-4e38-a9b5-a8602537669a",
+                          "type": "Physical",
+                          "agent": {
+                              "id": "cfdb310db96c4a9a8f818312cb5f6a58",
+                              "name": "Rohit Goyal",
+                              "gender": "M",
+                              "image": null
+                          },
+                          "start": {
+                              "time": {
+                                  "timestamp": "2022-12-16T16:30:00"
+                              }
+                          },
+                          "end": {
+                              "time": {
+                                  "timestamp": "2022-12-16T17:00:00"
+                              }
+                          },
+                          "tags": {
+                              "@abdm/gov.in/slot": "ba9cb606-1be2-4e38-a9b5-a8602537669a"
+                          },
+                          "quote": {
+                              "price": {
+                                  "currency": "INR",
+                                  "value": "1050"
+                              }
+                          }
+                      }
+                  ],
+                  "items": [
+                      {
+                          "id": "0",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "0b27a0cf-f69d-425a-a6a7-e2ff857e552d",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "1",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "52749784-e0d8-4fee-b1c2-6e2416625f14",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "2",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "81db9888-cfde-4c0a-88f9-66a33dc2db3f",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "3",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "43e821cd-cded-4a7d-9c19-cceeec873f59",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "4",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "77ee0881-64e3-4084-a832-4636bc3a503e",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "5",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "09691f96-35a9-4f49-805a-615ac065d627",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "6",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "a6ec2b9f-08b1-4882-acfb-52c46a11278d",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "7",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "e770d9ad-3022-4ce3-b48d-b894d309f972",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "8",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "b1b85709-5036-4717-98c0-b5589907519f",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "9",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "46500f0c-e621-4be4-8139-6a814c008b1e",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "10",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "e07fe1b1-8213-410b-a41a-b10b6ba584ae",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "11",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "d5fcdb2c-8599-466f-9060-cdf2255354e9",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "12",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "0dab0d69-18ac-4981-9ecb-9925b9ec3f38",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "13",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "412aab50-1c2d-4ad4-834f-936c6306849e",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "14",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "c5d2cf78-9afd-4e2e-8db5-82767b5760ec",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "15",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "0585e20d-0965-4ae2-8870-7340de31fcc4",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "16",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "93dddddc-078c-412a-ae8c-b71ee7609489",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "17",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "c7cd0f8e-3c6f-4244-bc65-5d4da4201876",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "18",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "7b5ed8b4-24a2-4f48-b89b-9b59077514a9",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "19",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "89a582e4-9583-4118-9105-e2315da45bf2",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "20",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "92d7d16a-1d94-41e2-9098-f7c04b7a684c",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "21",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "59764a7b-3a8a-4a23-b7ae-4c6a9cebba59",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "22",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "5a45d8e4-70b1-4490-831a-59f5487656c0",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "23",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "2f039f91-9af6-48c4-a20f-4b456c96a7e1",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "24",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "993e49a2-cb58-44d1-b8dc-c89d43f8b709",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "25",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "c3e2aea3-17b3-44ad-b172-81be0c3481e6",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "26",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "7cdfe9c6-5f7e-4bd6-9084-19ac73794e0d",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      },
+                      {
+                          "id": "27",
+                          "descriptor": {
+                              "name": "Medibuddy",
+                              "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                              "short_desc": "India's Largest Digital Healthcare Platform",
+                              "long_desc": ""
+                          },
+                          "fulfillment_id": "ba9cb606-1be2-4e38-a9b5-a8602537669a",
+                          "price": {
+                              "currency": "INR",
+                              "value": "1050"
+                          }
+                      }
+                  ],
+                  "location": {
+                      "id": "1",
+                      "descriptor": {
+                          "name": "Doctors' Hub | OPD",
+                          "short_desc": "",
+                          "long_desc": ""
+                      },
+                      "city": {
+                          "name": "Delhi",
+                          "code": "std:011"
+                      },
+                      "country": {
+                          "name": "INDIA",
+                          "code": "+91"
+                      },
+                      "gps": "",
+                      "address": "Dwarka"
+                  }
+              }
+          ]
+      }
+  }
+}

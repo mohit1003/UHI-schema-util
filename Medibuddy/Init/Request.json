@@ -1,0 +1,86 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:080",
+        "action": "init",
+        "core_version": "0.7.1",
+        "consumer_id": "eua-nha",
+        "consumer_uri": "http://100.65.158.41:8901/api/v1/euaService",
+        "message_id": "559667a0-6576-11ed-83d2-db6676a4d91e",
+        "timestamp": "2022-11-20T06:17:34.858358Z",
+        "provider_uri": "https://hspasbx.abdm.gov.in/api/v1",
+        "transaction_id": "559667a0-6576-11ed-83d2-db6676a4d91e"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "1"
+            },
+            "item": {
+                "id": "0",
+                "descriptor": {
+                    "code": "Consultation",
+                    "name": "Consultation"
+                },
+                "price": {
+                    "currency": "INR",
+                    "value": "500.0"
+                }
+            },
+            "fulfillment": {
+                "id": "4fb27b0d-5dfa-4854-9f46-1cd85be0d98e",
+                "type": "Online",
+                "agent": {
+                    "id": "satish123@hpr.ndhm",
+                    "name": "Satish Udhavrao Chonde",
+                    "gender": "M",
+                    "tags": {
+                        "@abdm/gov/in/education": "MBBS",
+                        "@abdm/gov/in/experience": "10.0",
+                        "@abdm/gov/in/languages": "Hindi, Marathi, English",
+                        "@abdm/gov/in/hpr_id": "71-4453-8853-6840",
+                        "@abdm/gov.in/groupConsultation": "false"
+                    }
+                },
+                "start": {
+                    "time": {
+                        "timestamp": "2022-11-16T12:00:00"
+                    }
+                },
+                "end": {
+                    "time": {
+                        "timestamp": "2022-11-16T12:30:00"
+                    }
+                }
+            },
+            "billing": {
+                "name": "Satish Udhavrao Chonde",
+                "address": {
+                    "door": "",
+                    "name": "Satish Udhavrao Chonde",
+                    "locality": "C/O Udhavrao Chonde At abhinav nagar kandhar po kandhar tq kandhar Kandhar",
+                    "city": "Nanded",
+                    "state": "Maharashtra",
+                    "country": "INDIA"
+                },
+                "phone": "9511225358"
+            },
+            "customer": {
+                "person": {
+                    "gender": "M",
+                    "dob": "2022-11-21",
+                    "dayOfBirth": 21,
+                    "monthOfBirth": 11,
+                    "yearOfBirth": 2022
+                },
+                "id": "satishc661994@sbx"
+            },
+            "payment": {
+                "params": {
+                    "redirect_url": "www.callmyeua.com/payment/done? transaction_id=1& order_id=1& order_status=success& payment_status=success"
+                }
+            }
+        }
+    }
+}

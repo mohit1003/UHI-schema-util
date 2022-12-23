@@ -1,0 +1,27 @@
+{
+  "context": {
+      "domain": "nic2004:85111",
+      "country": "IND",
+      "city": "std:080",
+      "action": "cancel",
+      "core_version": "0.7.1",
+      "consumer_id": "eua-nha",
+      "consumer_uri": "http://uhieuasandbox.abdm.gov.in/api/v1/euaService",
+      "message_id": "e9a19230-f951-11ec-b135-53aea776f66b",
+      "timestamp": "2022-07-05T15:24:35",
+      "provider_id": "hspa-nha",
+      "provider_uri": "http://hspasbx.abdm.gov.in/api/v1",
+      "transaction_id": "e9a19230-f951-11ec-b135-53aea776f66b"
+  },
+  "message": {
+      "order": {
+          "id": "8441-696786-1042",
+          "state": "CANCELLED",
+          "fulfillment": {
+              "tags": {
+                  "@abdm/gov.in/cancelledby": "patient"
+              }
+          }
+      }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "context": {
+      "domain": "nic2004:85111",
+      "country": "IND",
+      "city": "std:080",
+      "action": "search",
+      "core_version": "0.7.1",
+      "consumer_id": "eua-nha",
+      "consumer_uri": "http://uhieuasandbox.abdm.gov.in/api/v1/euaService",
+      "message_id": "e9a19230-f951-11ec-b135-53aea776f66b",
+      "timestamp": "2022-07-05T15:24:35",
+      "transaction_id": "e9a19230-f951-11ec-b135-53aea776f66b"
+  },
+  "message": {
+      "intent": {
+          "category": {
+              "descriptor": {
+                  "code": "CARDIOLOGY",
+                  "name": "CARDIOLOGY"
+              }
+          },
+          "fulfillment": {
+              "type": "Online",
+              "start": {
+                  "time": {
+                      "timestamp": "2022-07-15T00:00:00"
+                  }
+              },
+              "end": {
+                  "time": {
+                      "timestamp": "2022-07-16T00:00:00"
+                  }
+              }
+          },
+          "item": {
+              "descriptor": {
+                  "code": "Consultation",
+                  "name": "Consultation"
+              }
+          }
+      }
+  }
+}

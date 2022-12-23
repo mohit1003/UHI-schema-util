@@ -1,0 +1,144 @@
+{
+  "context": {
+      "domain": "nic2004:85111",
+      "country": "IND",
+      "city": "std:080",
+      "action": "on_confirm",
+      "timestamp": "2022-12-23T17:10:56",
+      "core_version": "0.7.1",
+      "consumer_id": "eua-nha",
+      "consumer_uri": "http://100.65.158.41:8901/api/v1/euaService",
+      "provider_id": "",
+      "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+      "transaction_id": "559667a0-6576-11ed-83d2-db6676a4d91e",
+      "message_id": "3c5bdbc0-8052-11ed-8a9d-ef7411eae057"
+  },
+  "message": {
+      "order": {
+          "id": "26793209",
+          "item": {
+              "id": "0",
+              "descriptor": {
+                  "name": "Consultation",
+                  "code": "CONSULTATION"
+              },
+              "fulfillment_id": "ff3ed80d-a2fe-4c31-b113-251d487365b2",
+              "price": {
+                  "currency": "INR",
+                  "value": "1200"
+              }
+          },
+          "fulfillment": {
+              "id": "ff3ed80d-a2fe-4c31-b113-251d487365b2",
+              "type": "Online",
+              "agent": {
+                  "id": "8c3eccf34dad4cca8c55fc0e36f6a8b4444",
+                  "name": "Shatul",
+                  "gender": "M",
+                  "tags": {
+                      "@abdm/gov/in/education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology)",
+                      "@abdm/gov/in/experience": "25",
+                      "@abdm/gov/in/languages": "Eng",
+                      "@abdm/gov/in/hpr_id": "8c3eccf34dad4cca8c55fc0e36f6a8b4444",
+                      "@abdm/gov.in/groupConsultation": "false",
+                      "@abdm/gov.in/patientGender": "M",
+                      "@abdm/gov.in/experience": "25"
+                  }
+              },
+              "start": {
+                  "time": {
+                      "timestamp": "2022-12-22T10:00:00"
+                  }
+              },
+              "end": {
+                  "time": {
+                      "timestamp": "2022-12-22T10:30:00"
+                  }
+              },
+              "tags": {
+                  "@abdm/gov.in/slot_id": "ff3ed80d-a2fe-4c31-b113-251d487365b2",
+                  "@abdm/gov.in/patient_key": "[218, 144, 16, 91, 18, 77, 239, 89, 95, 119, 251, 181, 4, 164, 184, 14, 63, 1, 9, 241, 8, 154, 167, 249, 146, 114, 229, 89, 198, 255, 82, 64]",
+                  "@abdm/gov.in/doctors_key": "[ 66,70,82,121,97,43,84,122,104,97,76,85,55,77,73,50,84,104,73,112,87,50,88,52,68,87,109,80,103,81,118,51,76,66,48,66,98,121,120,107,113,52,54,75,98,81,48,54,110,84,97,113,102,111,79,57,88,68,84,48,88,117,108,86,114,117,119,50,98,55,101,57,70,72,77,84,121,108,85,85,87,112,47,97,48,84,65,61 ]",
+                  "@abdm/gov.in/teleconsultation/uri": "https://abha-video-call.mbstg.in?targetId=c2F0aXNoMTIzQGhwci5uZGhtMTM4NDUyNjQ="
+              }
+          },
+          "billing": {
+              "name": "Swanand Marathe",
+              "address": {
+                  "door": "",
+                  "name": "Swanand Marathe",
+                  "locality": "C/O Suryakant Marathe samarth math ke pass 23,pant vaidya colony Indore",
+                  "city": "Bhopal",
+                  "state": "Madhya Pradesh",
+                  "country": "INDIA",
+                  "area_code": null
+              },
+              "email": "swanand.marathe@lntinfotech.com",
+              "phone": "9754556282"
+          },
+          "quote": {
+              "price": {
+                  "currency": "INR",
+                  "value": "1200"
+              },
+              "breakup": [
+                  {
+                      "title": "Consultation",
+                      "price": {
+                          "currency": "INR",
+                          "value": "1200"
+                      }
+                  },
+                  {
+                      "title": "CGST @ 5%",
+                      "price": {
+                          "currency": "INR",
+                          "value": "0"
+                      }
+                  },
+                  {
+                      "title": "SGST @ 5%",
+                      "price": {
+                          "currency": "INR",
+                          "value": "0"
+                      }
+                  },
+                  {
+                      "title": "Registration",
+                      "price": {
+                          "currency": "INR",
+                          "value": "0"
+                      }
+                  }
+              ]
+          },
+          "payment": {
+              "uri": "https://api.bpp.com/pay?amt=1500&txn_id=ksh87yriuro34iyr3p4&mode=upi&vpa=sana.bhatt@upi",
+              "type": "ON-ORDER",
+              "status": "PAID",
+              "tl_method": "http/get",
+              "params": {
+                  "amount": "1200",
+                  "mode": "UPI",
+                  "vpa": null,
+                  "transaction_id": ""
+              }
+          },
+          "customer": {
+              "id": "swanand@sbx",
+              "cred": null,
+              "person": {
+                  "gender": "M",
+                  "dob": "1989-12-9",
+                  "dayOfBirth": 9,
+                  "monthOfBirth": 12,
+                  "yearOfBirth": 1989
+              }
+          },
+          "provider": {
+              "id": "1"
+          },
+          "state": "CONFIRMED"
+      }
+  }
+}
