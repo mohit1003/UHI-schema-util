@@ -1,0 +1,27 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:011",
+        "action": "cancel",
+        "core_version": "0.7.1",
+        "consumer_id": "lybrate-eua",
+        "consumer_uri": "https://staging.lybrate.com/uhi/",
+        "provider_id": "medibuddy-tech-hspa",
+        "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+        "transaction_id": "TXN-10200571447-fa2c70a0",
+        "message_id": "MSG-10200571447-4037f4a5",
+        "timestamp": "1671708004339"
+    },
+    "message": {
+        "order": {
+            "id": "26813040",
+            "state": "CANCELLED",
+            "fulfillment": {
+                "tags": {
+                    "@abdm/gov.in/cancelledby": "patient"
+                }
+            }
+        }
+    }
+}
