@@ -1,0 +1,535 @@
+[
+    {
+        "context": {
+            "city": "std:011",
+            "action": "on_search",
+            "domain": "nic2004:85111",
+            "country": "IND",
+            "timestamp": "2022-12-24T19:17:35",
+            "message_id": "14941807-469b-4296-8443-1a6025b9e08b",
+            "consumer_id": "eua-nha",
+            "provider_id": "medibuddy-tech-hspa",
+            "consumer_uri": "https://abha-uhipracto.practodev.com/v1/uhi",
+            "core_version": "0.7.1",
+            "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+            "transaction_id": "c374d12f-55c1-423c-820d-20b649ffb111"
+        },
+        "message": {
+            "catalog": {
+                "providers": [
+                    {
+                        "id": "1",
+                        "items": [
+                            {
+                                "id": "0",
+                                "price": {
+                                    "value": "1200",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "name": "Consultation"
+                                },
+                                "category_id": "0",
+                                "fulfillment_id": "0"
+                            },
+                            {
+                                "id": "1",
+                                "price": {
+                                    "value": "1200",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "name": "Consultation"
+                                },
+                                "category_id": "1",
+                                "fulfillment_id": "1"
+                            },
+                            {
+                                "id": "2",
+                                "price": {
+                                    "value": "1200",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "name": "Consultation"
+                                },
+                                "category_id": "2",
+                                "fulfillment_id": "2"
+                            }
+                        ],
+                        "location": {
+                            "id": "1",
+                            "gps": "",
+                            "city": {
+                                "code": "std:011",
+                                "name": "Delhi"
+                            },
+                            "address": "Dwarka",
+                            "country": {
+                                "code": "+91",
+                                "name": "INDIA"
+                            },
+                            "descriptor": {
+                                "name": "Manipal Hospital - Dwarka,New Delhi",
+                                "long_desc": "",
+                                "short_desc": ""
+                            }
+                        },
+                        "categories": [
+                            {
+                                "id": "0",
+                                "descriptor": {
+                                    "code": "PAEDIATRIC CARDIOLOGIST",
+                                    "name": "Paediatric Cardiologist"
+                                },
+                                "parent_category_id": "101"
+                            },
+                            {
+                                "id": "1",
+                                "descriptor": {
+                                    "code": "PAEDIATRIC CARDIOLOGIST",
+                                    "name": "Paediatric Cardiologist"
+                                },
+                                "parent_category_id": "101"
+                            },
+                            {
+                                "id": "2",
+                                "descriptor": {
+                                    "code": "PAEDIATRIC CARDIOLOGIST",
+                                    "name": "Paediatric Cardiologist"
+                                },
+                                "parent_category_id": "101"
+                            },
+                            {
+                                "id": "101",
+                                "descriptor": {
+                                    "code": "ALLOPATHY",
+                                    "name": "Allopathy"
+                                }
+                            }
+                        ],
+                        "descriptor": {
+                            "name": "Manipal Hospital - Dwarka,New Delhi",
+                            "long_desc": "",
+                            "short_desc": ""
+                        },
+                        "fulfillments": [
+                            {
+                                "id": "0",
+                                "end": {
+                                    "time": {
+                                        "timestamp": "2022-12-31T23:59:59+05:30"
+                                    }
+                                },
+                                "type": "Online",
+                                "agent": {
+                                    "id": "8c3eccf34dad4cca8c55fc0e36f6a8b4",
+                                    "name": "Smita Mishra",
+                                    "tags": {
+                                        "@abdm/gov/in/hpr_id": "8c3eccf34dad4cca8c55fc0e36f6a8b4",
+                                        "@abdm/gov/in/education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology) ",
+                                        "@abdm/gov/in/languages": "Eng",
+                                        "@abdm/gov/in/experience": "25"
+                                    },
+                                    "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
+                                    "gender": "M"
+                                },
+                                "start": {
+                                    "time": {
+                                        "timestamp": "2022-12-25T00:47:35+05:30"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "1",
+                                "end": {
+                                    "time": {
+                                        "timestamp": "2022-12-31T23:59:59+05:30"
+                                    }
+                                },
+                                "type": "Online",
+                                "agent": {
+                                    "id": "eb7a129620b54277ac58e28385093b14",
+                                    "name": "Sakshi Khullar",
+                                    "tags": {
+                                        "@abdm/gov/in/hpr_id": "eb7a129620b54277ac58e28385093b14",
+                                        "@abdm/gov/in/education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology) ",
+                                        "@abdm/gov/in/languages": "Eng",
+                                        "@abdm/gov/in/experience": "20"
+                                    },
+                                    "gender": "M"
+                                },
+                                "start": {
+                                    "time": {
+                                        "timestamp": "2022-12-25T00:47:35+05:30"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "end": {
+                                    "time": {
+                                        "timestamp": "2022-12-31T23:59:59+05:30"
+                                    }
+                                },
+                                "type": "Online",
+                                "agent": {
+                                    "id": "8c3eccf34dad4cca8c55fc0e36f6a8b4444",
+                                    "name": "Shatul",
+                                    "tags": {
+                                        "@abdm/gov/in/hpr_id": "8c3eccf34dad4cca8c55fc0e36f6a8b4444",
+                                        "@abdm/gov/in/education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology)",
+                                        "@abdm/gov/in/languages": "Eng",
+                                        "@abdm/gov/in/experience": "25"
+                                    },
+                                    "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
+                                    "gender": "M"
+                                },
+                                "start": {
+                                    "time": {
+                                        "timestamp": "2022-12-25T00:47:35+05:30"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "descriptor": {
+                    "name": "Medibuddy",
+                    "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                    "long_desc": "",
+                    "short_desc": "India's Largest Digital Healthcare Platform"
+                }
+            }
+        }
+    },
+    {
+        "context": {
+            "city": "std:011",
+            "action": "on_search",
+            "domain": "nic2004:85111",
+            "country": "IND",
+            "timestamp": "2022-12-25T00:47:34",
+            "message_id": "14941807-469b-4296-8443-1a6025b9e08b",
+            "consumer_id": "eua-nha",
+            "provider_id": "bajaj-finserv-hspa",
+            "consumer_uri": "https://abha-uhipracto.practodev.com/v1/uhi",
+            "core_version": "0.7.1",
+            "provider_uri": "https://bfhldevapigw.healthrx.co.in/uhi-integration/api/hspa",
+            "transaction_id": "c374d12f-55c1-423c-820d-20b649ffb111"
+        },
+        "message": {
+            "catalog": {
+                "providers": [
+                    {
+                        "id": "6733141613873079",
+                        "items": [
+                            {
+                                "id": "0",
+                                "price": {
+                                    "value": "400",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "name": "Consultation"
+                                },
+                                "category_id": "0",
+                                "fulfillment_id": "0"
+                            }
+                        ],
+                        "location": {
+                            "id": "0",
+                            "gps": "18.5246036,73.792927",
+                            "city": {
+                                "code": "011",
+                                "name": "Delhi"
+                            },
+                            "address": "3rd, 7th & 9th Floor, Tower-L, Jeevan Bharati Building, Connaught Place, New Delhi, Delhi 110001",
+                            "country": {
+                                "code": "+91",
+                                "name": "INDIA"
+                            },
+                            "descriptor": {
+                                "name": "Shatul Clinic"
+                            }
+                        },
+                        "categories": [
+                            {
+                                "id": "0",
+                                "descriptor": {
+                                    "name": "Cardiology"
+                                }
+                            }
+                        ],
+                        "descriptor": {
+                            "name": "Shatul Clinic"
+                        },
+                        "fulfillments": [
+                            {
+                                "id": "0",
+                                "type": "Online",
+                                "agent": {
+                                    "id": "6733141611297598",
+                                    "name": "Dr. Shatul Mehta",
+                                    "tags": {
+                                        "@abdm/gov/in/education": "MBBS",
+                                        "@abdm/gov/in/languages": "English, हिन्दी",
+                                        "@abdm/gov/in/experience": "8"
+                                    },
+                                    "image": "https://doctorlistingingestionpr.blob.core.windows.net/doctorprofilepic/doctor_male.png",
+                                    "gender": "M"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "descriptor": {
+                    "name": "Bajaj Finserv Health"
+                }
+            }
+        }
+    },
+    {
+        "context": {
+            "city": "std:011",
+            "action": "on_search",
+            "domain": "nic2004:85111",
+            "country": "IND",
+            "timestamp": "2022-12-25T00:47:34",
+            "message_id": "14941807-469b-4296-8443-1a6025b9e08b",
+            "consumer_id": "eua-nha",
+            "provider_id": "hspa-nha",
+            "consumer_uri": "https://abha-uhipracto.practodev.com/v1/uhi",
+            "core_version": "0.7.1",
+            "provider_uri": "https://hspasbx.abdm.gov.in/api/v1",
+            "transaction_id": "c374d12f-55c1-423c-820d-20b649ffb111"
+        },
+        "message": {
+            "catalog": {
+                "providers": [
+                    {
+                        "id": "1",
+                        "items": [
+                            {
+                                "id": "0",
+                                "price": {
+                                    "value": "0.0",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "code": "CONSULTATION",
+                                    "name": "Consultation"
+                                },
+                                "category_id": "201",
+                                "fulfillment_id": "0"
+                            },
+                            {
+                                "id": "1",
+                                "price": {
+                                    "value": "0.0",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "code": "CONSULTATION",
+                                    "name": "Consultation"
+                                },
+                                "category_id": "201",
+                                "fulfillment_id": "1"
+                            },
+                            {
+                                "id": "2",
+                                "price": {
+                                    "value": "0.0",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "code": "CONSULTATION",
+                                    "name": "Consultation"
+                                },
+                                "category_id": "201",
+                                "fulfillment_id": "2"
+                            },
+                            {
+                                "id": "3",
+                                "price": {
+                                    "value": "0.0",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "code": "CONSULTATION",
+                                    "name": "Consultation"
+                                },
+                                "category_id": "201",
+                                "fulfillment_id": "3"
+                            },
+                            {
+                                "id": "4",
+                                "price": {
+                                    "value": "0.0",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "code": "CONSULTATION",
+                                    "name": "Consultation"
+                                },
+                                "category_id": "201",
+                                "fulfillment_id": "4"
+                            },
+                            {
+                                "id": "5",
+                                "price": {
+                                    "value": "0.0",
+                                    "currency": "INR"
+                                },
+                                "descriptor": {
+                                    "code": "CONSULTATION",
+                                    "name": "Consultation"
+                                },
+                                "category_id": "201",
+                                "fulfillment_id": "5"
+                            }
+                        ],
+                        "location": {
+                            "id": "1",
+                            "gps": "18.5246036,73.792927",
+                            "city": {
+                                "code": "011",
+                                "name": "Delhi"
+                            },
+                            "address": "3rd, 7th & 9th Floor, Tower-L, Jeevan Bharati Building, Connaught Place, New Delhi, Delhi 110001",
+                            "country": {
+                                "code": "+91",
+                                "name": "INDIA"
+                            },
+                            "descriptor": {
+                                "name": "Test Hospital",
+                                "long_desc": "We are Test hospital. We have established a very profound name in the healthcare industry by providing expert services in every healthcare fields that we have.",
+                                "short_desc": "Expertise in every field with renowned staff."
+                            }
+                        },
+                        "categories": [
+                            {
+                                "id": "201",
+                                "descriptor": {
+                                    "code": "CARDIOLOGY",
+                                    "name": "Cardiology"
+                                },
+                                "parent_category_id": "101"
+                            },
+                            {
+                                "id": "101",
+                                "descriptor": {
+                                    "code": "ALLOPATHY",
+                                    "name": "Allopathy"
+                                }
+                            }
+                        ],
+                        "descriptor": {
+                            "name": "Test Hospital",
+                            "long_desc": "We are Test hospital. We have established a very profound name in the healthcare industry by providing expert services in every healthcare fields that we have.",
+                            "short_desc": "Expertise in every field with renowned staff."
+                        },
+                        "fulfillments": [
+                            {
+                                "id": "0",
+                                "type": "Online",
+                                "agent": {
+                                    "id": "nikhil@hpr.abdm",
+                                    "name": "Nikhil Kumar Puthran",
+                                    "tags": {
+                                        "@abdm/gov/in/hpr_id": "",
+                                        "@abdm/gov/in/education": "MBBS",
+                                        "@abdm/gov/in/languages": "Eng, Hin",
+                                        "@abdm/gov/in/experience": "5.0"
+                                    },
+                                    "gender": "M"
+                                }
+                            },
+                            {
+                                "id": "1",
+                                "type": "Online",
+                                "agent": {
+                                    "id": "satish123@hpr.abdm",
+                                    "name": "Satish Udhavrao Chonde",
+                                    "tags": {
+                                        "@abdm/gov/in/hpr_id": "71-4453-8853-6840",
+                                        "@abdm/gov/in/education": "MBBS",
+                                        "@abdm/gov/in/languages": "English, Hindi",
+                                        "@abdm/gov/in/experience": "10.0"
+                                    },
+                                    "gender": "M"
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "type": "Online",
+                                "agent": {
+                                    "id": "amodjoshi@hpr.ndhm",
+                                    "name": "Amod Suresh Joshi",
+                                    "tags": {
+                                        "@abdm/gov/in/hpr_id": "71-5362-8737-7250",
+                                        "@abdm/gov/in/education": "MBBS, MD",
+                                        "@abdm/gov/in/languages": "Eng, Hin",
+                                        "@abdm/gov/in/experience": "12.0"
+                                    },
+                                    "gender": "M"
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "type": "Online",
+                                "agent": {
+                                    "id": "mohit@hpr.abdm",
+                                    "name": "Mohit",
+                                    "tags": {
+                                        "@abdm/gov/in/hpr_id": "66266636662222",
+                                        "@abdm/gov/in/education": "MBBS",
+                                        "@abdm/gov/in/languages": "Eng Hin Mar",
+                                        "@abdm/gov/in/experience": "2.5"
+                                    },
+                                    "gender": "M"
+                                }
+                            },
+                            {
+                                "id": "4",
+                                "type": "Online",
+                                "agent": {
+                                    "id": "amodborse@hpr.abdm",
+                                    "name": "Amod Borse",
+                                    "tags": {
+                                        "@abdm/gov/in/hpr_id": "73-4331-9088-8684",
+                                        "@abdm/gov/in/education": "MBBS",
+                                        "@abdm/gov/in/languages": "Eng, Hin",
+                                        "@abdm/gov/in/experience": "5.0"
+                                    },
+                                    "gender": "M"
+                                }
+                            },
+                            {
+                                "id": "5",
+                                "type": "Online",
+                                "agent": {
+                                    "id": "ganeshborse@hpr.ndhm",
+                                    "name": "Ganesh Vikram Borse",
+                                    "tags": {
+                                        "@abdm/gov/in/hpr_id": "73-5232-1888-8686",
+                                        "@abdm/gov/in/education": "MBBS",
+                                        "@abdm/gov/in/languages": "Eng, Hin",
+                                        "@abdm/gov/in/experience": "5.0"
+                                    },
+                                    "gender": "M"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "descriptor": {
+                    "name": "Ref HSPA",
+                    "images": "HSPA IMAGE",
+                    "long_desc": "Expert institution providing patient treatment with specialized health science and auxiliary healthcare staff and extraordinary medical equipments.",
+                    "short_desc": "Reference HSPA Test hospital"
+                }
+            }
+        }
+    }
+]

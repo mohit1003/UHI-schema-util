@@ -1,0 +1,43 @@
+{
+    "context": {
+        "city": "std:011",
+        "action": "search",
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "timestamp": "2022-12-25T00:47:34",
+        "message_id": "14941807-469b-4296-8443-1a6025b9e08b",
+        "consumer_id": "eua-nha",
+        "consumer_uri": "https://abha-uhipracto.practodev.com/v1/uhi",
+        "core_version": "0.7.1",
+        "transaction_id": "c374d12f-55c1-423c-820d-20b649ffb111"
+    },
+    "message": {
+        "intent": {
+            "item": {
+                "descriptor": {
+                    "code": "CARDIOLOGY",
+                    "name": "Cardiology"
+                }
+            },
+            "category": {
+                "descriptor": {
+                    "code": "CARDIOLOGY",
+                    "name": "Cardiology"
+                }
+            },
+            "fulfillment": {
+                "end": {
+                    "time": {
+                        "timestamp": "2022-12-31T23:59:59+05:30"
+                    }
+                },
+                "type": "Online",
+                "start": {
+                    "time": {
+                        "timestamp": "2022-12-25T00:47:35+05:30"
+                    }
+                }
+            }
+        }
+    }
+}

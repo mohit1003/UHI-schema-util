@@ -1,0 +1,135 @@
+{
+    "context": {
+        "city": "std:011",
+        "action": "confirm",
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "timestamp": "2022-12-24T19:17:47",
+        "message_id": "ac24e2ac-4c12-4a5d-8634-f2d18ddfa8eb",
+        "consumer_id": "eua-nha",
+        "provider_id": "medibuddy-tech-hspa",
+        "consumer_uri": "https://abha-uhipracto.practodev.com/v1/uhi",
+        "core_version": "0.7.1",
+        "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+        "transaction_id": "c374d12f-55c1-423c-820d-20b649ffb111"
+    },
+    "message": {
+        "order": {
+            "id": "26837691",
+            "item": {
+                "id": "3",
+                "price": {
+                    "value": "1200",
+                    "currency": "INR"
+                },
+                "descriptor": {
+                    "name": "Medibuddy"
+                },
+                "fulfillment_id": "10d78a1a-349b-41cc-beca-8bdd35ed16d6"
+            },
+            "quote": {
+                "price": {
+                    "value": "1200",
+                    "currency": "INR"
+                },
+                "breakup": [
+                    {
+                        "price": {
+                            "value": "1200",
+                            "currency": "INR"
+                        },
+                        "title": "Consultation"
+                    },
+                    {
+                        "price": {
+                            "value": "0",
+                            "currency": "INR"
+                        },
+                        "title": "CGST @ 5%"
+                    },
+                    {
+                        "price": {
+                            "value": "0",
+                            "currency": "INR"
+                        },
+                        "title": "SGST @ 5%"
+                    },
+                    {
+                        "price": {
+                            "value": "0",
+                            "currency": "INR"
+                        },
+                        "title": "Registration"
+                    }
+                ]
+            },
+            "billing": {
+                "name": "Manu G M",
+                "phone": "8722597687"
+            },
+            "payment": {
+                "uri": "https://rzp.io/i/QdYpBkbU",
+                "type": "ON-ORDER",
+                "params": {
+                    "redirect_url": "https://www-uhipracto.practodev.com/marketplace-api/uhi/payment/callback"
+                },
+                "status": "PAID"
+            },
+            "customer": {
+                "id": "91-1322-3553-5870",
+                "cred": "",
+                "person": {
+                    "name": "Manu G M"
+                },
+                "contact": {
+                    "email": "spaceadmin@practo.com",
+                    "phone": "8722597687"
+                }
+            },
+            "provider": {
+                "id": "1",
+                "location": {
+                    "id": "1",
+                    "gps": "",
+                    "city": {
+                        "code": "std:011",
+                        "name": "Delhi"
+                    },
+                    "address": "Dwarka",
+                    "country": {
+                        "code": "+91",
+                        "name": "INDIA"
+                    },
+                    "descriptor": {
+                        "name": "Manipal Hospital - Dwarka,New Delhi"
+                    }
+                },
+                "descriptor": {
+                    "name": "Manipal Hospital - Dwarka,New Delhi",
+                    "long_desc": "",
+                    "short_desc": ""
+                }
+            },
+            "fulfillment": {
+                "id": "10d78a1a-349b-41cc-beca-8bdd35ed16d6",
+                "end": {
+                    "time": {
+                        "timestamp": "2022-12-24T12:00:00"
+                    }
+                },
+                "type": "Online",
+                "agent": {
+                    "id": "8c3eccf34dad4cca8c55fc0e36f6a8b4",
+                    "name": "Smita Mishra",
+                    "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
+                    "gender": "M"
+                },
+                "start": {
+                    "time": {
+                        "timestamp": "2022-12-24T11:30:00"
+                    }
+                }
+            }
+        }
+    }
+}

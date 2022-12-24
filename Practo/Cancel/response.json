@@ -1,0 +1,27 @@
+{
+    "context": {
+        "city": "std:011",
+        "action": "on_cancel",
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "timestamp": "2022-12-24T19:18:20",
+        "message_id": "cc040061-f98e-4e6a-9dec-70295a6a177e",
+        "consumer_id": "eua-nha",
+        "provider_id": "medibuddy-tech-hspa",
+        "consumer_uri": "https://abha-uhipracto.practodev.com/v1/uhi",
+        "core_version": "0.7.1",
+        "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+        "transaction_id": "c374d12f-55c1-423c-820d-20b649ffb111"
+    },
+    "message": {
+        "order": {
+            "id": "26837691",
+            "state": "CANCELLED",
+            "fulfillment": {
+                "tags": {
+                    "@abdm/gov.in/cancelledby": "patient"
+                }
+            }
+        }
+    }
+}

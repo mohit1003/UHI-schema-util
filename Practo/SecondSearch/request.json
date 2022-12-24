@@ -1,0 +1,120 @@
+{
+    "context": {
+        "city": "std:011",
+        "action": "search",
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "timestamp": "2022-12-24T19:17:35",
+        "message_id": "e3353e3a-7d35-4b0b-8e0e-bab07b53e5e1",
+        "consumer_id": "eua-nha",
+        "provider_id": "medibuddy-tech-hspa",
+        "consumer_uri": "https://abha-uhipracto.practodev.com/v1/uhi",
+        "core_version": "0.7.1",
+        "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+        "transaction_id": "c374d12f-55c1-423c-820d-20b649ffb111"
+    },
+    "message": {
+        "intent": {
+            "provider": {
+                "id": "1",
+                "items": [
+                    {
+                        "id": "0",
+                        "price": {
+                            "value": "1200",
+                            "currency": "INR"
+                        },
+                        "descriptor": {
+                            "name": "Consultation"
+                        },
+                        "category_id": "0",
+                        "fulfillment_id": "0"
+                    }
+                ],
+                "location": {
+                    "id": "1",
+                    "gps": "",
+                    "city": {
+                        "code": "std:011",
+                        "name": "Delhi"
+                    },
+                    "address": "Dwarka",
+                    "country": {
+                        "code": "+91",
+                        "name": "INDIA"
+                    },
+                    "descriptor": {
+                        "name": "Manipal Hospital - Dwarka,New Delhi"
+                    }
+                },
+                "categories": [
+                    {
+                        "id": "0",
+                        "descriptor": {
+                            "code": "PAEDIATRIC CARDIOLOGIST",
+                            "name": "Paediatric Cardiologist"
+                        },
+                        "parent_category_id": "101"
+                    },
+                    {
+                        "id": "1",
+                        "descriptor": {
+                            "code": "PAEDIATRIC CARDIOLOGIST",
+                            "name": "Paediatric Cardiologist"
+                        },
+                        "parent_category_id": "101"
+                    },
+                    {
+                        "id": "2",
+                        "descriptor": {
+                            "code": "PAEDIATRIC CARDIOLOGIST",
+                            "name": "Paediatric Cardiologist"
+                        },
+                        "parent_category_id": "101"
+                    },
+                    {
+                        "id": "101",
+                        "descriptor": {
+                            "code": "ALLOPATHY",
+                            "name": "Allopathy"
+                        }
+                    }
+                ],
+                "descriptor": {
+                    "name": "Manipal Hospital - Dwarka,New Delhi",
+                    "long_desc": "",
+                    "short_desc": ""
+                },
+                "fulfillments": [
+                    {
+                        "id": "0",
+                        "end": {
+                            "time": {
+                                "timestamp": "2022-12-31T23:59:59+05:30"
+                            }
+                        },
+                        "type": "Online",
+                        "agent": {
+                            "id": "8c3eccf34dad4cca8c55fc0e36f6a8b4",
+                            "name": "Smita Mishra",
+                            "tags": {
+                                "abdm_gov_in_hpr_id": "8c3eccf34dad4cca8c55fc0e36f6a8b4",
+                                "abdm_gov_in_education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology) ",
+                                "abdm_gov_in_languages": "Eng",
+                                "abdm_gov_in_experience": "25",
+                                "abdm_gov_in_teleconsultation_uri": null
+                            },
+                            "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
+                            "gender": "M"
+                        },
+                        "start": {
+                            "time": {
+                                "timestamp": "2022-12-25T00:47:35+05:30"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
