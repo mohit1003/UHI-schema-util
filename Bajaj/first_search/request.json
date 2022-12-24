@@ -1,0 +1,36 @@
+{
+  "message": {
+      "intent": {
+          "fulfillment": {
+              "type": "Online",
+              "start": {
+                  "time": {
+                      "timestamp": "2022-12-16T00:00:00"
+                  }
+              },
+              "end": {
+                  "time": {
+                      "timestamp": "2022-12-17T00:00:00"
+                  }
+              }
+          },
+          "category": {
+              "descriptor": {
+                  "name": "CARDIOLOGY"
+              }
+          }
+      }
+  },
+  "context": {
+      "domain": "nic2004:85111",
+      "country": "IND",
+      "city": "std:011",
+      "action": "search",
+      "timestamp": "2022-07-05T15:24:35",
+      "core_version": "0.7.1",
+      "consumer_id": "practo-test",
+      "consumer_uri": "https://example.com",
+      "transaction_id": "27d98119-59dc-11ed-b4f7-1714b7644c84",
+      "message_id": "91114570-69b8-4c49-b693-70d8c617f3e0"
+  }
+}

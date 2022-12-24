@@ -1,0 +1,428 @@
+{
+  "context": {
+    "domain": "nic2004:85111",
+    "country": "IND",
+    "city": "std:011",
+    "action": "on_search",
+    "core_version": "0.7.1",
+    "consumer_id": "Driefcase-test",
+    "consumer_uri": "https://example.com",
+    "message_id": "581e204d-370b-42f1-a104-6f5f572e0035",
+    "timestamp": "2022-12-22T08:04:46.6655382Z",
+    "transaction_id": "6b6f64f9-97fd-4cc9-a01e-5ceae71574d4",
+    "provider_id": "bajaj-finserv-hspa",
+    "provider_uri": "https://bfhldevapigw.healthrx.co.in/uhi-integration/api/hspa",
+    "key": "",
+    "ttl": ""
+  },
+  "message": {
+    "catalog": {
+      "providers": [
+        {
+          "id": "6733141613873079",
+          "descriptor": {
+            "name": "bajaj-finserv-hspa"
+          },
+          "fulfillments": [
+            {
+              "id": "6733141611297598_2022-12-25T09:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T09:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T09:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T09:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T09:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T10:00:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T10:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T10:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T10:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T10:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T10:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T11:00:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T11:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T11:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T11:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T11:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T11:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T12:00:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T12:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T12:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T12:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T12:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T12:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T13:00:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T13:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T13:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T13:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T13:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T13:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T14:00:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T14:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T14:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T14:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T14:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T14:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T15:00:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T15:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T15:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T15:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T15:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T15:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T16:00:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T16:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T16:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T16:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T16:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T16:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T17:00:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T17:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T17:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T17:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T17:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T17:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T18:00:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T18:00:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T18:00:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T18:30:00"
+                }
+              }
+            },
+            {
+              "id": "6733141611297598_2022-12-25T18:30:00_30",
+              "type": "Online",
+              "agent": {
+                "id": "6733141611297598",
+                "name": "Shatul Mehta",
+                "gender": "M"
+              },
+              "start": {
+                "time": {
+                  "timestamp": "2022-12-25T18:30:00"
+                }
+              },
+              "end": {
+                "time": {
+                  "timestamp": "2022-12-25T19:00:00"
+                }
+              }
+            }
+          ],
+          "location": {
+            "id": "1",
+            "descriptor": {
+              "name": "bfhl-HSPA"
+            },
+            "city": {
+              "name": "Delhi",
+              "code": "011"
+            },
+            "country": {
+              "name": "INDIA",
+              "code": "+91"
+            },
+            "gps": "28.629855426041697 77.21924201083478",
+            "address": "3rd, 7th & 9th Floor, Tower-L, Jeevan Bharati Building, Connaught Place, New Delhi, Delhi 110001"
+          }
+        }
+      ]
+    }
+  }
+}

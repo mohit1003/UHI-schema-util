@@ -1,0 +1,97 @@
+{
+  "context": {
+    "domain": "nic2004:85111",
+    "country": "IND",
+    "city": "std:011",
+    "action": "on_init",
+    "timestamp": "2022-12-24T13:52:05",
+    "core_version": "0.7.1",
+    "consumer_id": "eua-nha",
+    "consumer_uri": "https://example.com",
+    "provider_id": "bajaj-finserv-hspa",
+    "provider_uri": "https://bfhldevapigw.healthrx.co.in/uhi-integration/api/hspa",
+    "transaction_id": "bc29fb77-d5ce-48b3-be63-6d50693ca799",
+    "message_id": "b693d47e-b15a-4290-8cde-a7c56d6b2252"
+  },
+  "message": {
+    "order": {
+      "id": "4d1cd2be-a1e4-409c-8839-6e035c52555b",
+      "provider": {
+        "id": "6733141613873079",
+        "descriptor": {
+          "name": "bajaj-finserv-hspa"
+        },
+        "location": {
+          "id": "1",
+          "descriptor": {
+            "name": "bfhl-HSPA"
+          },
+          "city": {
+            "name": "Delhi",
+            "code": "011"
+          },
+          "country": {
+            "name": "INDIA",
+            "code": "+91"
+          },
+          "gps": "28.629855426041697 77.21924201083478",
+          "address": "3rd, 7th & 9th Floor, Tower-L, Jeevan Bharati Building, Connaught Place, New Delhi, Delhi 110001"
+        }
+      },
+      "item": {},
+      "fulfillment": {
+        "id": "6733141611297598_2022-12-24T18:30:00_30",
+        "type": "Physical",
+        "agent": {
+          "id": "6733141611297598",
+          "name": "Shatul Mehta",
+          "gender": "M"
+        },
+        "start": {
+          "time": {
+            "timestamp": "2022-12-24T18:30:00"
+          }
+        },
+        "end": {
+          "time": {
+            "timestamp": "2022-12-24T19:00:00"
+          }
+        }
+      },
+      "billing": {
+        "name": "Chaitanya",
+        "phone": "7019891082"
+      },
+      "customer": {
+        "id": "91-7000-1026-0730",
+        "cred": "",
+        "person": {
+          "name": "Chaitanya"
+        },
+        "contact": {
+          "phone": "7019891082"
+        }
+      },
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "400"
+        },
+        "breakup": [
+          {
+            "title": "Consultation",
+            "price": {
+              "currency": "INR",
+              "value": "400"
+            }
+          }
+        ]
+      },
+      "payment": {
+        "uri": "https://rzp.io/i/sdhAOjQ4B",
+        "status": "NOT-PAID",
+        "type": "ON-ORDER"
+      }
+    }
+  }
+}

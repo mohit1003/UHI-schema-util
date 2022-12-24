@@ -1,0 +1,76 @@
+{
+  "context": {
+      "domain": "nic2004:85111",
+      "country": "IND",
+      "city": "std:011",
+      "action": "search",
+      "core_version": "0.7.1",
+      "consumer_id": "Driefcase-test",
+      "consumer_uri": "https://webhook.site/5336cbd6-3c14-40a2-90db-9aab0007c729",
+      "message_id": "581e204d-370b-42f1-a104-6f5f572e0035",
+      "timestamp": "2022-12-22T08:04:46.6655382Z",
+      "transaction_id": "6b6f64f9-97fd-4cc9-a01e-5ceae71574d4",
+      "provider_id": "bajaj-finserv-hspa",
+      "provider_uri": "https://bfhldevapigw.healthrx.co.in/uhi-integration/api/hspa",
+      "key": "",
+      "ttl": ""
+  },
+  "message": {
+      "intent": {
+          "provider": {
+              "id": "6733141613873079",
+              "categories": [
+                  {
+                      "parent_category_id": "",
+                      "id": "0",
+                      "descriptor": {
+                          "name": "Cardiology",
+                          "code": "",
+                          "short_desc": "",
+                          "long_desc": "",
+                          "images": ""
+                      }
+                  }
+              ],
+              "fulfillments": [
+                  {
+                      "agent": {
+                          "id": "6733141611297598",
+                          "name": null,
+                          "gender": null,
+                          "image": null,
+                          "tags": null
+                      },
+                      "start": {
+                          "time": {
+                              "timestamp": "2022-12-22T00:00:00"
+                          }
+                      },
+                      "end": {
+                          "time": {
+                              "timestamp": "2022-12-22T23:59:59"
+                          }
+                      },
+                      "type": "Online"
+                  }
+              ],
+              "item": {
+                  "id": "0",
+                  "price": {
+                      "value": "400",
+                      "currency": "INR"
+                  },
+                  "category_id": "0",
+                  "fulfillment_id": "0",
+                  "descriptor": {
+                      "name": "Consultation",
+                      "code": "",
+                      "short_desc": "",
+                      "long_desc": "",
+                      "images": ""
+                  }
+              }
+          }
+      }
+  }
+}
