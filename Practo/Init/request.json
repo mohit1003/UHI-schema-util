@@ -36,14 +36,14 @@
                 }
             },
             "customer": {
-                "id": "91-1322-3553-5870",
+                "id": "11-1111-1111-1111",
                 "cred": "",
                 "person": {
                     "name": "Manu G M"
                 },
                 "contact": {
-                    "email": "spaceadmin@practo.com",
-                    "phone": "8722597687"
+                    "email": "test@practo.com",
+                    "phone": "9876543210"
                 }
             },
             "provider": {
