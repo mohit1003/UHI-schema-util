@@ -39,7 +39,7 @@
                           "name": null,
                           "gender": null, (Remove null fields from all requests and responses. DHP doesn't allow null fields)
                           "image": null,
-                          "tags": null
+                          "tags": null (pass agent tags received from first on_search response here)
                       },
                       "start": {
                           "time": {
