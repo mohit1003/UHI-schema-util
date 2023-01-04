@@ -22,7 +22,7 @@
                   "name": "Consultation",
                   "code": "CONSULTATION"
               },
-              "fulfillment_id": "ff3ed80d-a2fe-4c31-b113-251d487365b2",
+              "fulfillment_id": "ff3ed80d-a2fe-4c31-b113-251d487365b2", (Remove this field)
               "price": {
                   "currency": "INR",
                   "value": "1200"
@@ -41,8 +41,8 @@
                       "@abdm/gov/in/languages": "Eng",
                       "@abdm/gov/in/hpr_id": "8c3eccf34dad4cca8c55fc0e36f6a8b4444",
                       "@abdm/gov.in/groupConsultation": "false",
-                      "@abdm/gov.in/patientGender": "M",
-                      "@abdm/gov.in/experience": "25"
+                      "@abdm/gov.in/patientGender": "M", (remove this)
+                      "@abdm/gov.in/experience": "25" (Duplicated)
                   }
               },
               "start": {
@@ -56,7 +56,7 @@
                   }
               },
               "tags": {
-                  "@abdm/gov.in/slot_id": "ff3ed80d-a2fe-4c31-b113-251d487365b2",
+                  "@abdm/gov.in/slot_id": "ff3ed80d-a2fe-4c31-b113-251d487365b2", (remove this)
                   "@abdm/gov.in/patient_key": "[218, 144, 16, 91, 18, 77, 239, 89, 95, 119, 251, 181, 4, 164, 184, 14, 63, 1, 9, 241, 8, 154, 167, 249, 146, 114, 229, 89, 198, 255, 82, 64]"
               }
           },
@@ -124,7 +124,7 @@
           },
           "customer": {
               "id": "swanand@sbx",
-              "cred": null,
+              "cred": null, (remove null field from everywhere)
               "person": {
                   "gender": "M",
                   "dob": "1989-12-9",
