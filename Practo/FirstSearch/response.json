@@ -253,7 +253,7 @@
                                 "name": "Shatul Clinic"
                             }
                         },
-                        "categories": [
+                        "categories": [ // (Need to add parent category)
                             {
                                 "id": "0",
                                 "descriptor": {
