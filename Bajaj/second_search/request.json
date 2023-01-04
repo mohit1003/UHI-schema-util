@@ -37,7 +37,7 @@
                       "agent": {
                           "id": "6733141611297598",
                           "name": null,
-                          "gender": null,
+                          "gender": null, (Remove null fields from all requests and responses. DHP doesn't allow null fields)
                           "image": null,
                           "tags": null
                       },
