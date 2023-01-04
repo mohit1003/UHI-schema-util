@@ -11,7 +11,7 @@
       "provider_id": "",
       "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
       "transaction_id": "e9a19230-f951-11ec-b135-53aea776f66b",
-      "message_id": "e9a19230-f951-11ec-b135-53aea776f66b"
+      "message_id": "e9a19230-f951-11ec-b135-53aea776f66b" (Message id should be unique for every message (search, init,confirm). Transaction id is only one from search to on_confirm)
   },
   "message": {
       "catalog": {
@@ -29,7 +29,7 @@
                       "short_desc": "",
                       "long_desc": ""
                   },
-                  "categories": [
+                  "categories": [ (Kindly add parent category as well for all categories array. Pls refer swagger)
                       {
                           "id": "0",
                           "descriptor": {
