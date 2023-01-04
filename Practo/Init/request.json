@@ -38,7 +38,7 @@
             "customer": {
                 "id": "11-1111-1111-1111",
                 "cred": "",
-                "person": {
+                "person": { // (Kindly add more detail ins person schema like DOB and gender)
                     "name": "Manu G M"
                 },
                 "contact": {
@@ -83,7 +83,7 @@
                     "name": "Smita Mishra",
                     "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
                     "gender": "M"
-                },
+                }, // (Need agent tags here)
                 "start": {
                     "time": {
                         "timestamp": "2022-12-24T11:30:00"
