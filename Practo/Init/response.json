@@ -79,7 +79,7 @@
                 "id": "11-1111-1111-1111",
                 "cred": "",
                 "person": {
-                    "name": "Manu G M"
+                    "name": "Manu G M" // (Add more fields in person schema like DOB and Gender. Kindly refer swagger)
                 },
                 "contact": {
                     "email": "test@practo.com",
@@ -123,7 +123,7 @@
                     "name": "Smita Mishra",
                     "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
                     "gender": "M"
-                },
+                }, // (Need agent tags everywhere where agent involved)
                 "start": {
                     "time": {
                         "timestamp": "2022-12-24T11:30:00"
