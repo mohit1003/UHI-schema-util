@@ -23,7 +23,7 @@
                 "type": "Online",
                 "start": {
                     "time": {
-                        "timestamp": "1671699092412"
+                        "timestamp": "1671699092412" (timestamp format is invalid. Change it for all timestamps. Kindly follow ISO 8601 format without timezone. Example (2022-07-22T23:59:59))
                     }
                 },
                 "end": {
