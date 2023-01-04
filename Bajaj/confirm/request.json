@@ -38,7 +38,7 @@
               "address":"3rd, 7th & 9th Floor, Tower-L, Jeevan Bharati Building, Connaught Place, New Delhi, Delhi 110001"
            }
         },
-        "item":{
+        "item":{ // (Dont keep this empty.)
            
         },
         "fulfillment":{
@@ -58,7 +58,7 @@
               "time":{
                  "timestamp":"2022-12-24T15:30:00"
               }
-           },
+           }, // (Kindly pass agent tags here as well)
            "tags":{
               "@abdm/gov.in/patient_key":"BAfrVVd9Uqviz9/rgx+23uPPBqCrQHEVhH3BfV1TmFuZQeGhsPEfoifS1LK48gI8penb2HAkTqxaMBmyY4aA6dg="
            }
@@ -80,13 +80,13 @@
                     "value":"400"
                  }
               }
-           ]
+           ] // (Add GST details in breakup)
         },
         "customer":{
            "id":"11-1111-1111-1111",
            "cred":"",
            "person":{
-              "name":"Manu G M"
+              "name":"Manu G M" // (Update person schema to add more fileds like DOB and gender)
            },
            "contact":{
               "phone":"9876543210",
