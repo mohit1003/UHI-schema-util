@@ -34,7 +34,7 @@
                 "type": "Online",
                 "start": {
                     "time": {
-                        "timestamp": "2022-12-25T00:47:35+05:30"
+                        "timestamp": "2022-12-25T00:47:35+05:30" // (timezone is not supported currently. Kindly remove +05:30 everywhere timestamp involved)
                     }
                 }
             }
