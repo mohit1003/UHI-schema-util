@@ -29,7 +29,7 @@
                       "short_desc": "",
                       "long_desc": ""
                   },
-                  "categories": [
+                  "categories": [ (Kindly add parent category as mentioned in swagger)
                       {
                           "id": "0",
                           "descriptor": {
@@ -63,7 +63,7 @@
                           },
                           "start": {
                               "time": {
-                                  "timestamp": ""
+                                  "timestamp": "" (Kindly follow ISO 8601 timestamp without time zone. (Example 2022-11-16T12:00:00))
                               }
                           },
                           "end": {
