@@ -1,3 +1,5 @@
+// (Kindly add categories array getting in the request)
+
 {
     "context": {
         "city": "std:011",
@@ -1424,7 +1426,7 @@
                                 }
                             },
                             "tags": {
-                                "@abdm/gov.in/slot": "3dd3a9ae-c0ef-4f78-b0c1-111f66cc76d2"
+                                "@abdm/gov.in/slot": "3dd3a9ae-c0ef-4f78-b0c1-111f66cc76d2" // ( Kindly remove this from everywhere)
                             },
                             "type": "Online",
                             "agent": {
@@ -1432,8 +1434,8 @@
                                 "name": "Smita Mishra",
                                 "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
                                 "gender": "M"
-                            },
-                            "quote": {
+                            }, // (Kindly add agent tags)               
+                            "quote": { // (Remove quote from all fulfillments)
                                 "price": {
                                     "value": "1200",
                                     "currency": "INR"
