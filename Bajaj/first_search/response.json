@@ -24,7 +24,7 @@
           "descriptor": {
             "name": "Shatul Clinic"
           },
-          "categories": [
+          "categories": [ // Need parent category as well. Kindly refer swagger
             {
               "id": "0",
               "descriptor": {
