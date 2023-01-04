@@ -37,7 +37,7 @@
                               "id": "cfdb310db96c4a9a8f818312cb5f6a58",
                               "name": "Rohit Goyal",
                               "gender": "M",
-                              "image": null
+                              "image": null (Kindly remove all null fields)
                           },
                           "start": {
                               "time": {
@@ -50,10 +50,10 @@
                               }
                           },
                           "tags": {
-                              "@abdm/gov.in/slot": "0b27a0cf-f69d-425a-a6a7-e2ff857e552d"
+                              "@abdm/gov.in/slot": "0b27a0cf-f69d-425a-a6a7-e2ff857e552d" (remove this tag from everywhere)
                           },
                           "quote": {
-                              "price": {
+                              "price": { (Price should be inside items here not quote. Kindly update in all places)
                                   "currency": "INR",
                                   "value": "1050"
                               }
@@ -965,7 +965,7 @@
                               "long_desc": ""
                           },
                           "fulfillment_id": "b1b85709-5036-4717-98c0-b5589907519f",
-                          "price": {
+                          "price": { 
                               "currency": "INR",
                               "value": "1050"
                           }
