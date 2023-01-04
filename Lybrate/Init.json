@@ -32,7 +32,7 @@
                     "id": "eb7a129620b54277ac58e28385093b14",
                     "name": "Sakshi Khullar",
                     "tags": {
-                        "@abdm/gov/in/hpr_id": "eb7a129620b54277ac58e28385093b14"
+                        "@abdm/gov/in/hpr_id": "eb7a129620b54277ac58e28385093b14" (Why sending HPR id in tags? Kindly remove)
                     }
                 },
                 "start": {
@@ -59,7 +59,7 @@
             },
             "customer": {
                 "id": "testabha@abx",
-                "person": {}
+                "person": {} (Need other fields in person schema like dob. Kindly check swagger and update the changes here) 
             },
             "payment": {
                 "params": {
