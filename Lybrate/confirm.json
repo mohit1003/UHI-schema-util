@@ -33,7 +33,14 @@
                     "id": "eb7a129620b54277ac58e28385093b14",
                     "name": "Sakshi Khullar",
                     "tags": {
-                        "@abdm/gov/in/hpr_id": "eb7a129620b54277ac58e28385093b14"
+                        "@abdm/gov/in/hpr_id": "eb7a129620b54277ac58e28385093b14" (remove hpr_id tag. Need a few more tags here like. Make this from second search request. this will continue till on_confirm.
+                                                                                  ("tags": {                  "@abdm/gov/in/experience": "10.0",
+                                                                                          "@abdm/gov/in/languages": "Hindi, English",
+                                                                                          "@abdm/gov/in/education": "MBBS, BDS",
+                                                                                          "@abdm/gov/in/hpr_id": "73-5232-1888-8686")
+
+
+                })
                     }
                 },
                 "start": {
@@ -96,7 +103,7 @@
             },
             "customer": {
                 "id": "testabha@abx",
-                "person": {}
+                "person": {} (Need more fields in person schema. Kindly refer the swagger)
             },
             "payment": {
                 "uri": "https://rzp.io/i/7dzvipuC",
