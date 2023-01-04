@@ -47,7 +47,7 @@
                         "name": "Manipal Hospital - Dwarka,New Delhi"
                     }
                 },
-                "categories": [
+                "categories": [ // Categories should have MAX 2 items. 1. SELECTED fulfillment-> agent's specialty and 2. SELECTED fulfillment-> agent's parent category
                     {
                         "id": "0",
                         "descriptor": {
