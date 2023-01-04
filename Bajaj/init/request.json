@@ -37,7 +37,7 @@
           "address": "3rd, 7th & 9th Floor, Tower-L, Jeevan Bharati Building, Connaught Place, New Delhi, Delhi 110001"
         }
       },
-      "item": {},
+      "item": {}, // (Why passing this?)
       "fulfillment": {
         "id": "6733141611297598_2022-12-24T18:30:00_30",
         "type": "Physical",
@@ -45,7 +45,7 @@
           "id": "6733141611297598",
           "name": "Shatul Mehta",
           "gender": "M"
-        },
+        },  // (Need agent tags here as well)
         "start": {
           "time": {
             "timestamp": "2022-12-24T18:30:00"
@@ -65,7 +65,7 @@
         "id": "11-1111-1111-1111",
         "cred": "",
         "person": {
-          "name": "9812763405"
+          "name": "9812763405" // (Person schema should also include additional fields like dob. Kindly check swagger)
         },
         "contact": {
           "phone": "7019891082"
