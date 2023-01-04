@@ -38,7 +38,7 @@
           "address": "3rd, 7th & 9th Floor, Tower-L, Jeevan Bharati Building, Connaught Place, New Delhi, Delhi 110001"
         }
       },
-      "item": {}, // (Remove this)
+      "item": {}, // (Dont keep this empty)
       "fulfillment": {
         "id": "6733141611297598_2022-12-24T18:30:00_30",
         "type": "Physical",
