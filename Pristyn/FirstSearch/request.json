@@ -1,0 +1,43 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:011",
+        "action": "search",
+        "core_version": "0.7.1",
+        "consumer_id": "pristyn-care-eua",
+        "consumer_uri": "https://nygoew3ua8.execute-api.ap-south-1.amazonaws.com/staging",
+        "message_id": "2f2aa89a-647f-4cbe-9257-251072615746",
+        "timestamp": "2023-01-20T14:09:46.390Z",
+        "transaction_id": "571988ba-aab4-4cfe-bec2-d0b8408a24db"
+    },
+    "message": {
+        "intent": {
+            "category": {
+                "descriptor": {
+                    "code": "Cardiology",
+                    "name": "Cardiology"
+                }
+            },
+            "fulfillment": {
+                "type": "Physical",
+                "start": {
+                    "time": {
+                        "timestamp": "2023-01-20T00:00:00"
+                    }
+                },
+                "end": {
+                    "time": {
+                        "timestamp": "2023-01-27T00:00:00"
+                    }
+                }
+            },
+            "item": {
+                "descriptor": {
+                    "code": "Consultation",
+                    "name": "Consultation"
+                }
+            }
+        }
+    }
+}
