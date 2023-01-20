@@ -1,0 +1,159 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_search",
+        "timestamp": "2023-01-20T14:14:27",
+        "core_version": "0.7.1",
+        "consumer_id": "pristyn-care-eua",
+        "consumer_uri": "https://nygoew3ua8.execute-api.ap-south-1.amazonaws.com/staging",
+        "provider_id": "medibuddy-tech-hspa",
+        "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
+        "transaction_id": "3805b2ae-91ca-4446-be04-620220dc3e1b",
+        "message_id": "2ec06ccd-2bc5-4d68-b6a0-9a90c9a4918b"
+    },
+    "message": {
+        "catalog": {
+            "descriptor": {
+                "name": "Medibuddy",
+                "images": "https://www.medibuddy.in/assets/logos/medibuddyWithName.svg",
+                "short_desc": "India's Largest Digital Healthcare Platform",
+                "long_desc": ""
+            },
+            "providers": [
+                {
+                    "id": "1",
+                    "descriptor": {
+                        "name": "Manipal Hospital - Dwarka,New Delhi",
+                        "short_desc": "",
+                        "long_desc": ""
+                    },
+                    "categories": [
+                        {
+                            "id": "0",
+                            "parent_category_id": "101",
+                            "descriptor": {
+                                "name": "Paediatric Cardiologist",
+                                "code": "PAEDIATRIC CARDIOLOGIST"
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "parent_category_id": "101",
+                            "descriptor": {
+                                "name": "Paediatric Cardiologist",
+                                "code": "PAEDIATRIC CARDIOLOGIST"
+                            }
+                        },
+                        {
+                            "id": "101",
+                            "descriptor": {
+                                "name": "Allopathy",
+                                "code": "ALLOPATHY"
+                            }
+                        }
+                    ],
+                    "fulfillments": [
+                        {
+                            "id": "0",
+                            "type": "Online",
+                            "agent": {
+                                "id": "29254",
+                                "name": "Dr. Test Avinash",
+                                "gender": "M",
+                                "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
+                                "tags": {
+                                    "@abdm/gov/in/experience": "25",
+                                    "@abdm/gov/in/languages": "Eng",
+                                    "@abdm/gov/in/education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology)",
+                                    "@abdm/gov/in/hpr_id": "29254"
+                                }
+                            },
+                            "start": {
+                                "time": {
+                                    "timestamp": "2023-01-20T00:00:00"
+                                }
+                            },
+                            "end": {
+                                "time": {
+                                    "timestamp": "2023-01-27T00:00:00"
+                                }
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "type": "Online",
+                            "agent": {
+                                "id": "8c3eccf34dad4cca8c55fc0e36f6a8b4444",
+                                "name": "Shatul",
+                                "gender": "M",
+                                "image": "https://views.medibuddy.in/offlineconsults/doctorimages/DR_ID 27536.jpg",
+                                "tags": {
+                                    "@abdm/gov/in/experience": "25",
+                                    "@abdm/gov/in/languages": "Eng",
+                                    "@abdm/gov/in/education": "MBBS, MD - (Paediatrics), FNB - (Paediatric Cardiology)",
+                                    "@abdm/gov/in/hpr_id": "8c3eccf34dad4cca8c55fc0e36f6a8b4444"
+                                }
+                            },
+                            "start": {
+                                "time": {
+                                    "timestamp": "2023-01-20T00:00:00"
+                                }
+                            },
+                            "end": {
+                                "time": {
+                                    "timestamp": "2023-01-27T00:00:00"
+                                }
+                            }
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "0",
+                            "descriptor": {
+                                "name": "Consultation"
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "1200"
+                            },
+                            "category_id": "0",
+                            "fulfillment_id": "0"
+                        },
+                        {
+                            "id": "1",
+                            "descriptor": {
+                                "name": "Consultation"
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "1200"
+                            },
+                            "category_id": "1",
+                            "fulfillment_id": "1"
+                        }
+                    ],
+                    "location": {
+                        "id": "1",
+                        "descriptor": {
+                            "name": "Manipal Hospital - Dwarka,New Delhi",
+                            "short_desc": "",
+                            "long_desc": ""
+                        },
+                        "city": {
+                            "name": "Delhi",
+                            "code": "std:011"
+                        },
+                        "country": {
+                            "name": "INDIA",
+                            "code": "+91"
+                        },
+                        "gps": "",
+                        "address": "Dwarka"
+                    }
+                }
+            ]
+        }
+    }
+}
