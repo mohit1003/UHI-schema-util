@@ -1,0 +1,27 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_cancel",
+        "core_version": "0.7.1",
+        "consumer_id": "pristyn-care-eua",
+        "consumer_uri": "https://nygoew3ua8.execute-api.ap-south-1.amazonaws.com/staging",
+        "message_id": "dba6e4c1-b92e-448b-b44c-75f036f1acbc",
+        "timestamp": "2023-01-20T14:19:36.114Z",
+        "provider_id": "bajaj-finserv-hspa",
+        "provider_uri": "https://bfhldevapigw.healthrx.co.in/uhi-integration/api/hspa",
+        "transaction_id": "32d6f220-3ced-4a72-abaf-a3947d0b878f"
+    },
+    "message": {
+        "order": {
+            "id": "6120df13-ac16-4ffe-8418-58879f0ee755",
+            "state": "CANCELLED",
+            "fulfillment": {
+                "tags": {
+                    "@abdm/gov.in/cancelledby": "patient"
+                }
+            }
+        }
+    }
+}
