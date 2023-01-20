@@ -1,0 +1,95 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:011",
+        "action": "on_search",
+        "timestamp": "2023-01-20T14:07:38.187Z",
+        "core_version": "0.7.1",
+        "consumer_id": "pristyn-care-eua",
+        "consumer_uri": "https://nygoew3ua8.execute-api.ap-south-1.amazonaws.com/staging",
+        "transaction_id": "8514617d-4dc8-4d3b-b9ff-94db51f1400c",
+        "message_id": "356ad3b0-bd2c-45c9-952f-8defdad8dcf4",
+        "provider_id": "bajaj-finserv-hspa",
+        "provider_uri": "https://bfhldevapigw.healthrx.co.in/uhi-integration/api/hspa"
+    },
+    "message": {
+        "catalog": {
+            "descriptor": {
+                "name": "Bajaj Finserv Health"
+            },
+            "providers": [
+                {
+                    "id": "6733141613873079",
+                    "descriptor": {
+                        "name": "Shatul Clinic"
+                    },
+                    "categories": [
+                        {
+                            "parent_category_id": "101",
+                            "id": "0",
+                            "descriptor": {
+                                "name": "Cardiology",
+                                "code": "CARDIOLOGY"
+                            }
+                        },
+                        {
+                            "id": "101",
+                            "descriptor": {
+                                "name": "Allopathy",
+                                "code": "ALLOPATHY"
+                            }
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "0",
+                            "descriptor": {
+                                "name": "Consultation"
+                            },
+                            "category_id": "0",
+                            "price": {
+                                "currency": "INR",
+                                "value": "1200"
+                            },
+                            "fulfillment_id": "0"
+                        }
+                    ],
+                    "fulfillments": [
+                        {
+                            "id": "0",
+                            "type": "Physical",
+                            "agent": {
+                                "id": "6733141611297598",
+                                "name": "Dr. Shatul Mehta",
+                                "gender": "M",
+                                "image": "https://doctorlistingingestionpr.blob.core.windows.net/doctorprofilepic/doctor_male.png",
+                                "tags": {
+                                    "@abdm/gov/in/languages": "English, हिन्दी",
+                                    "@abdm/gov/in/education": "MBBS",
+                                    "@abdm/gov/in/experience": ""
+                                }
+                            }
+                        }
+                    ],
+                    "location": {
+                        "id": "0",
+                        "descriptor": {
+                            "name": "Shatul Clinic"
+                        },
+                        "city": {
+                            "name": "Delhi",
+                            "code": "011"
+                        },
+                        "country": {
+                            "name": "INDIA",
+                            "code": "+91"
+                        },
+                        "gps": "18.5246036,73.792927",
+                        "address": "3rd, 7th & 9th Floor, Tower-L, Jeevan Bharati Building, Connaught Place, New Delhi, Delhi 110001"
+                    }
+                }
+            ]
+        }
+    }
+}
