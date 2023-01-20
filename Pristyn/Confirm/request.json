@@ -1,0 +1,81 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:011",
+        "action": "confirm",
+        "core_version": "0.7.1",
+        "consumer_id": "pristyn-care-eua",
+        "consumer_uri": "https://nygoew3ua8.execute-api.ap-south-1.amazonaws.com/staging",
+        "message_id": "86f7395a-b169-49ff-a777-b307f1d5a03f",
+        "timestamp": "2023-01-20T14:18:25.332Z",
+        "provider_id": "bajaj-finserv-hspa",
+        "provider_uri": "https://bfhldevapigw.healthrx.co.in/uhi-integration/api/hspa",
+        "transaction_id": "3805b2ae-91ca-4446-be04-620220dc3e1b"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "6733141613873079"
+            },
+            "item": {
+                "id": "0",
+                "descriptor": {
+                    "code": "Consultation",
+                    "name": "Consultation"
+                }
+            },
+            "fulfillment": {
+                "id": "6733141611297598_2023-01-20T20:30:00_30",
+                "type": "Online",
+                "agent": {
+                    "id": "6733141611297598"
+                },
+                "start": {
+                    "time": {
+                        "timestamp": "2023-01-20T20:30:00"
+                    }
+                },
+                "end": {
+                    "time": {
+                        "timestamp": "2023-01-20T21:00:00"
+                    }
+                },
+                "tags": {
+                    "@abdm/gov.in/patient_key": "[159, 248, 220, 195, 187, 221, 217, 26, 236, 136, 151, 89, 126, 130, 238, 52, 205, 85, 227, 64, 252, 213, 209, 207, 56, 212, 244, 15, 210, 7, 188, 14]"
+                }
+            },
+            "billing": {
+                "name": "Vinu Vasudev",
+                "address": {
+                    "door": "",
+                    "name": "Vinu Vasudev",
+                    "locality": "C/O K K Vasudevan Sukanya Bhavan Parumala P O Thiruvalla Kadapra",
+                    "city": "Kadapra",
+                    "state": "KERALA",
+                    "country": "IND"
+                },
+                "phone": "9633319976"
+            },
+            "customer": {
+                "person": {
+                    "gender": "M",
+                    "dob": "1991-12-9",
+                    "dayOfBirth": 9,
+                    "monthOfBirth": 12,
+                    "yearOfBirth": 1991
+                },
+                "id": "11-7567-6428-0222"
+            },
+            "payment": {
+                "uri": "",
+                "type": "ON-ORDER",
+                "status": "NOT-PAID",
+                "params": {
+                    "redirect_url": "https://www.pristyncare.com/uhi_success"
+                }
+            },
+            "id": "6120df13-ac16-4ffe-8418-58879f0ee755"
+        }
+    }
+}
