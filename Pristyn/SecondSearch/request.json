@@ -1,0 +1,51 @@
+{
+    "context": {
+        "domain": "nic2004:85111",
+        "country": "IND",
+        "city": "std:011",
+        "action": "search",
+        "core_version": "0.7.1",
+        "consumer_id": "pristyn-care-eua",
+        "consumer_uri": "https://nygoew3ua8.execute-api.ap-south-1.amazonaws.com/staging",
+        "message_id": "644bc2c9-f143-4cd3-bf88-43b1d78aee19",
+        "timestamp": "2023-01-20T14:14:32.829Z",
+        "provider_id": "bajaj-finserv-hspa",
+        "provider_uri": "https://bfhldevapigw.healthrx.co.in/uhi-integration/api/hspa",
+        "transaction_id": "3805b2ae-91ca-4446-be04-620220dc3e1b"
+    },
+    "message": {
+        "intent": {
+            "provider": {
+                "id": "6733141613873079",
+                "fulfillments": [
+                    {
+                        "type": "Online",
+                        "agent": {
+                            "id": "6733141611297598"
+                        },
+                        "start": {
+                            "time": {
+                                "timestamp": "2023-01-20T00:00:00"
+                            }
+                        },
+                        "end": {
+                            "time": {
+                                "timestamp": "2023-01-27T00:00:00"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "category_id": "0",
+                        "fulfillment_id": "1",
+                        "descriptor": {
+                            "code": "Consultation",
+                            "name": "Consultation"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
