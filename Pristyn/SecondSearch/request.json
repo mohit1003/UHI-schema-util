@@ -16,7 +16,8 @@
     "message": {
         "intent": {
             "provider": {
-                "id": "6733141613873079",
+                "id": "6733141613873079", // (Categories array is missing. Include the category, fullfilllment that user has seelcted in the respective arrays. Please note here 
+                1. Maximum 2 elements are allowed in categories array. maximum 1 element is allowed in fulfillments array.)
                 "fulfillments": [
                     {
                         "type": "Online",
