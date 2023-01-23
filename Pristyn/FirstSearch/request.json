@@ -8,7 +8,7 @@
         "consumer_id": "pristyn-care-eua",
         "consumer_uri": "https://nygoew3ua8.execute-api.ap-south-1.amazonaws.com/staging",
         "message_id": "2f2aa89a-647f-4cbe-9257-251072615746",
-        "timestamp": "2023-01-20T14:09:46.390Z",
+        "timestamp": "2023-01-20T14:09:46.390Z", //(Remove millisecs and timezone)
         "transaction_id": "571988ba-aab4-4cfe-bec2-d0b8408a24db"
     },
     "message": {
