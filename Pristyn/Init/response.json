@@ -15,7 +15,7 @@
     },
     "message": {
         "order": {
-            "id": "6120df13-ac16-4ffe-8418-58879f0ee755",
+            "id": "6120df13-ac16-4ffe-8418-58879f0ee755", //(Make order ID in human redable form in a format such as (XXX-XXXXXX-XXX))
             "provider": {
                 "id": "6733141613873079"
             },
@@ -25,14 +25,14 @@
                     "code": "Consultation",
                     "name": "Consultation"
                 },
-                "price": {
+                "price": { //(price value is missing)
                     "currency": "INR"
                 }
             },
             "fulfillment": {
                 "id": "6733141611297598_2023-01-20T20:30:00_30",
                 "type": "Online",
-                "agent": {
+                "agent": { //(Agent tags are missing)
                     "id": "6733141611297598"
                 },
                 "start": {
@@ -73,7 +73,7 @@
                     "currency": "INR",
                     "value": "400"
                 },
-                "breakup": [
+                "breakup": [ //(Add GST details here as well)
                     {
                         "title": "Consultation",
                         "price": {
