@@ -24,14 +24,14 @@
                     "code": "Consultation",
                     "name": "Consultation"
                 },
-                "price": {
+                "price": { // (Price value is missing)
                     "currency": "INR"
                 }
             },
             "fulfillment": {
                 "id": "6733141611297598_2023-01-20T20:30:00_30",
                 "type": "Online",
-                "agent": {
+                "agent": { // (Agent tags are missing)
                     "id": "6733141611297598"
                 },
                 "start": {
