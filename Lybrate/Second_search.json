@@ -1,42 +1,66 @@
 {
-    "context": {
-        "domain": "nic2004:85111",
-        "country": "IND",
-        "city": "std:011",
-        "action": "search",
-        "core_version": "0.7.1",
-        "consumer_id": "lybrate-eua",
-        "consumer_uri": "https://staging.lybrate.com/uhi/",
-        "provider_id": "medibuddy-tech-hspa",
-        "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
-        "transaction_id": "TXN-10200571447-0b597fa7",
-        "message_id": "MSG-10200571447-4b73b905",
-        "timestamp": "1671700282360"
-    },
-    "message": {
-        "intent": {
-            "provider": {
-                "id": "1",
-                "fulfillments": [
-                    {
-                        "type": "Online",
-                        "agent": {
-                            "id": "eb7a129620b54277ac58e28385093b14"
-                        },
-                        "start": {
-                            "time": {
-                                "timestamp": "2022-12-22" (Kindly use ISO 8601 format without timestamp. (2022-07-22T23:59:59))
-                            }
-                        },
-                        "end": {
-                            "time": {
-                                "timestamp": "2022-12-23"
-                            }
-                        }
-                    }
-                ]
-                (Kindly send categories array and items array as well. Pls refer swagger)
-            }
-        }
-    }
+	"context": {
+		"domain": "nic2004:85111",
+		"country": "IND",
+		"city": "std:011",
+		"action": "search",
+		"core_version": "0.7.1",
+		"consumer_id": "lybrate-eua",
+		"consumer_uri": "https://staging.lybrate.com/uhi/",
+		"provider_id": "hspa-nha",
+		"provider_uri": "https://hspasbx.abdm.gov.in/api/v1",
+		"transaction_id": "TXN-10204611482-fc06bfe8",
+		"message_id": "MSG-10204611482-7cc1ba4c",
+		"timestamp": "2023-01-24T00:00:00"
+	},
+	"message": {
+		"intent": {
+			"provider": {
+				"id": "1",
+				"categories": [{
+					"id": "201",
+					"parent_category_id": "101",
+					"descriptor": {
+						"name": "Cardiology",
+						"code": "CARDIOLOGY"
+					}
+				}, {
+					"id": "101",
+					"descriptor": {
+						"name": "Allopathy",
+						"code": "ALLOPATHY"
+					}
+				}],
+				"fulfillments": [{
+					"type": "Online",
+					"agent": {
+						"id": "ganeshborse@hpr.ndhm"
+					},
+					"start": {
+						"time": {
+							"timestamp": "2023-01-24T12:44:39"
+						}
+					},
+					"end": {
+						"time": {
+							"timestamp": "2023-01-25T12:44:39"
+						}
+					}
+				}],
+				"items": [{
+					"id": "0",
+					"descriptor": {
+						"name": "Consultation",
+						"code": "CONSULTATION"
+					},
+					"category_id": "201",
+					"fulfillment_id": "0",
+					"price": {
+						"currency": "INR",
+						"value": "0.0"
+					}
+				}]
+			}
+		}
+	}
 }
