@@ -1,43 +1,43 @@
 {
-    "context": {
-        "domain": "nic2004:85111",
-        "country": "IND",
-        "city": "std:011",
-        "action": "search",
-        "core_version": "0.7.1",
-        "consumer_id": "lybrate-eua",
-        "consumer_uri": "https://staging.lybrate.com/uhi/",
-        "transaction_id": "TXN-10200571447-7bb8043f",
-        "message_id": "MSG-10200571447-b0705670",
-        "timestamp": "1671699092409"
-    },
-    "message": {
-        "intent": {
-            "item": {
-                "descriptor": {
-                    "name": "Consultation",
-                    "code": "CONSULTATION"
-                }
-            },
-            "fulfillment": {
-                "type": "Online",
-                "start": {
-                    "time": {
-                        "timestamp": "1671699092412" (timestamp format is invalid. Change it for all timestamps. Kindly follow ISO 8601 format without timezone. Example (2022-07-22T23:59:59))
-                    }
-                },
-                "end": {
-                    "time": {
-                        "timestamp": "1672252200000"
-                    }
-                }
-            },
-            "category": {
-                "descriptor": {
-                    "name": "Cardiology",
-                    "code": "CARDIOLOGY"
-                }
-            }
-        }
-    }
+	"context": {
+		"domain": "nic2004:85111",
+		"country": "IND",
+		"city": "std:011",
+		"action": "search",
+		"core_version": "0.7.1",
+		"consumer_id": "lybrate-eua",
+		"consumer_uri": "https://staging.lybrate.com/uhi/",
+		"transaction_id": "TXN-10204611482-fc06bfe8",
+		"message_id": "MSG-10204611482-eccf0ee3",
+		"timestamp": "2023-01-24T00:00:00"
+	},
+	"message": {
+		"intent": {
+			"item": {
+				"descriptor": {
+					"name": "Consultation",
+					"code": "CONSULTATION"
+				}
+			},
+			"fulfillment": {
+				"type": "Online",
+				"start": {
+					"time": {
+						"timestamp": "2023-01-24T00:00:00"
+					}
+				},
+				"end": {
+					"time": {
+						"timestamp": "2023-01-25T00:00:00"
+					}
+				}
+			},
+			"category": {
+				"descriptor": {
+					"name": "Cardiology",
+					"code": "CARDIOLOGY"
+				}
+			}
+		}
+	}
 }
