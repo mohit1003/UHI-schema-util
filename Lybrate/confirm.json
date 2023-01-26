@@ -1,118 +1,121 @@
 {
-    "context": {
-        "domain": "nic2004:85111",
-        "country": "IND",
-        "city": "std:011",
-        "action": "confirm",
-        "core_version": "0.7.1",
-        "consumer_id": "lybrate-eua",
-        "consumer_uri": "https://staging.lybrate.com/uhi/",
-        "provider_id": "medibuddy-tech-hspa",
-        "provider_uri": "https://abha-ndhm-core.mbstg.in/hspa",
-        "transaction_id": "TXN-10200571447-0b597fa7",
-        "message_id": "MSG-10200571447-68fdbfea",
-        "timestamp": "1671700399829"
-    },
-    "message": {
-        "order": {
-            "id": "26813040",
-            "item": {
-                "descriptor": {
-                    "name": "Consultation",
-                    "code": "CONSULTATION"
-                },
-                "price": {
-                    "currency": "INR",
-                    "value": "1200"
-                }
-            },
-            "fulfillment": {
-                "id": "1",
-                "type": "Online",
-                "agent": {
-                    "id": "eb7a129620b54277ac58e28385093b14",
-                    "name": "Sakshi Khullar",
-                    "tags": {
-                        "@abdm/gov/in/hpr_id": "eb7a129620b54277ac58e28385093b14" (remove hpr_id tag. Need a few more tags here like. Make this from second search request. this will continue till on_confirm.
-                                                                                  ("tags": {                  "@abdm/gov/in/experience": "10.0",
-                                                                                          "@abdm/gov/in/languages": "Hindi, English",
-                                                                                          "@abdm/gov/in/education": "MBBS, BDS",
-                                                                                          "@abdm/gov/in/hpr_id": "73-5232-1888-8686")
-
-
-                })
-                    }
-                },
-                "start": {
-                    "time": {
-                        "timestamp": "2022-12-22T09:00:00"
-                    }
-                },
-                "end": {
-                    "time": {
-                        "timestamp": "2022-12-22T09:30:00"
-                    }
-                }
-            },
-            "billing": {
-                "name": "Sudhir",
-                "address": {
-                    "name": "Sudhir Choudhary",
-                    "locality": "xyz, qwer",
-                    "country": "India",
-                    "area_code": "342001"
-                },
-                "email": "s@gmail.com",
-                "phone": "9024274299"
-            },
-            "quote": {
-                "price": {
-                    "currency": "INR",
-                    "value": "1200"
-                },
-                "breakup": [
-                    {
-                        "title": "Consultation",
-                        "price": {
-                            "currency": "INR",
-                            "value": "1200"
-                        }
-                    },
-                    {
-                        "title": "CGST @ 5%",
-                        "price": {
-                            "currency": "INR",
-                            "value": "0"
-                        }
-                    },
-                    {
-                        "title": "SGST @ 5%",
-                        "price": {
-                            "currency": "INR",
-                            "value": "0"
-                        }
-                    },
-                    {
-                        "title": "Registration",
-                        "price": {
-                            "currency": "INR",
-                            "value": "0"
-                        }
-                    }
-                ]
-            },
-            "customer": {
-                "id": "testabha@abx",
-                "person": {} (Need more fields in person schema. Kindly refer the swagger)
-            },
-            "payment": {
-                "uri": "https://rzp.io/i/7dzvipuC",
-                "type": "ON-ORDER",
-                "status": "PAID",
-                "params": {
-                    "redirect_url": "https://staging.lybrate.com/uhi/payment/status"
-                }
-            }
-        }
-    }
+	"context": {
+		"domain": "nic2004:85111",
+		"country": "IND",
+		"city": "std:011",
+		"action": "confirm",
+		"core_version": "0.7.1",
+		"consumer_id": "lybrate-eua",
+		"consumer_uri": "https://staging.lybrate.com/uhi/",
+		"provider_id": "hspa-nha",
+		"provider_uri": "https://hspasbx.abdm.gov.in/api/v1",
+		"transaction_id": "TXN-10204611482-3da46679",
+		"message_id": "MSG-10204611482-ee34d7b3",
+		"timestamp": "2023-01-26T00:00:00"
+	},
+	"message": {
+		"order": {
+			"id": "6333-708156-6419",
+			"provider": {
+				"id": "1"
+			},
+			"item": {
+				"id": "6",
+				"descriptor": {
+					"name": "Consultation",
+					"code": "CONSULTATION"
+				},
+				"fulfillment_id": "81866cd7-a16c-4d31-8a6c-b59992dd4d2a",
+				"price": {
+					"currency": "INR",
+					"value": "0.0"
+				}
+			},
+			"fulfillment": {
+				"id": "81866cd7-a16c-4d31-8a6c-b59992dd4d2a",
+				"type": "Online",
+				"agent": {
+					"id": "ganeshborse@hpr.ndhm",
+					"name": "Ganesh Vikram Borse",
+					"gender": "M",
+					"tags": {
+						"@abdm/gov/in/experience": "50",
+						"@abdm/gov/in/groupConsultation": "false",
+						"@abdm/gov/in/languages": "",
+						"@abdm/gov/in/education": "MBBS",
+						"@abdm/gov/in/hpr_id": "73-5232-1888-8686"
+					}
+				},
+				"start": {
+					"time": {
+						"timestamp": "2023-01-27T13:30:00"
+					}
+				},
+				"end": {
+					"time": {
+						"timestamp": "2023-01-27T13:45:00"
+					}
+				}
+			},
+			"billing": {
+				"name": "Nha Testing ",
+				"address": {
+					"door": "",
+					"name": "NHA Testing ",
+					"locality": "test address ",
+					"city": "Gwalior",
+					"state": "",
+					"country": "India",
+					"area_code": "474006"
+				},
+				"email": "test@lybrate.com",
+				"phone": "7657657650"
+			},
+			"quote": {
+				"price": {
+					"currency": "INR",
+					"value": "0.0"
+				},
+				"breakup": [{
+					"title": "Consultation",
+					"price": {
+						"currency": "INR",
+						"value": "0.0"
+					}
+				}, {
+					"title": "CGST @ 5%",
+					"price": {
+						"currency": "INR",
+						"value": "0.0"
+					}
+				}, {
+					"title": "SGST @ 5%",
+					"price": {
+						"currency": "INR",
+						"value": "0.0"
+					}
+				}, {
+					"title": "Registration",
+					"price": {
+						"currency": "INR",
+						"value": "0"
+					}
+				}]
+			},
+			"customer": {
+				"id": "testabha@abx",
+				"person": {
+					"gender": "",
+					"dob": "2000-07-08",
+					"dayOfBirth": 8,
+					"monthOfBirth": 7,
+					"yearOfBirth": 2000
+				}
+			},
+			"payment": {
+				"type": "ON-ORDER",
+				"status": "FREE"
+			}
+		}
+	}
 }
