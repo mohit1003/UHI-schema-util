@@ -63,7 +63,7 @@
 					"name": "NHA Testing ",
 					"locality": "test address ",
 					"city": "Gwalior",
-					"state": "",
+					"state": "", // (Add state)
 					"country": "India",
 					"area_code": "474006"
 				},
@@ -73,7 +73,7 @@
 			"customer": {
 				"id": "testabha@abx",
 				"person": {
-					"gender": "",
+					"gender": "", //(Patient gander is a required field. Pls add Gender acronym (M,F,O))
 					"dob": "2000-07-08",
 					"dayOfBirth": 8,
 					"monthOfBirth": 7,
