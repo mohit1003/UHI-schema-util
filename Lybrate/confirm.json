@@ -1,4 +1,4 @@
-{
+{ //(Kindly fix issues from init request so they'll get fixed here as well)
 	"context": {
 		"domain": "nic2004:85111",
 		"country": "IND",
@@ -9,7 +9,7 @@
 		"consumer_uri": "https://staging.lybrate.com/uhi/",
 		"provider_id": "hspa-nha",
 		"provider_uri": "https://hspasbx.abdm.gov.in/api/v1",
-		"transaction_id": "TXN-10204611482-3da46679",
+		"transaction_id": "TXN-10204611482-3da46679", //(Transaction ID should be same from first search till on_confirm. It looks different from first search which was TXN-10204611482-fc06bfe8)
 		"message_id": "MSG-10204611482-ee34d7b3",
 		"timestamp": "2023-01-26T00:00:00"
 	},
@@ -114,7 +114,7 @@
 			},
 			"payment": {
 				"type": "ON-ORDER",
-				"status": "FREE"
+				"status": "FREE" // (Add redirect_url here as well)
 			}
 		}
 	}
